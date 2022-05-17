@@ -1,0 +1,2863 @@
+\\fileshare01\DataQualityProgOff\Temp
+
+DOCS':
+\\fileshare02OCE\Users\abdur
+
+sanbox path:/cmls/dev/gpfs/apps03/users/dmandala
+config path:sa73cmlsd01/cmls/backup/gpfs/FRS/DATA_CHECK/config
+. ./ab_project_setup.ksh $PWD
+
+https://myaccess.trusted.visa.com/uedgui/login
+Help desk Number:
+6720 HELP
+
+Meta dtaa:
+http://metadata/METAHUB-PRODORA/explorer/webclient.html 
+CITRIX:
+http://insite/glb/windows_engineering/index.aspx 
+
+
+
+22                                                                    
+                                             
+uesapp21 pat server name
+su pesi
+pat password skippy1
+stty erase backspace
+/td/pesi/control/
+. *ab* .
+echo  "runjob -p pat JESIL284 ccbcycle1 > ../log/JESIL284.stdout 2> ../log/JESIL284.stderr" | at now
+echo  "runjob -p pat JESIL424 ccbcycle1 > ../log/JESIL424.stdout 2> ../log/JESIL424.stderr" | at now
+echo  "runjob -p pat JESIL481 ccbcycle1 > ../log/JESIL481.stdout 2> ../log/JESIL481.stderr" | at now
+echo  "runjob -p pat JESIL290 ccbcycle1 > ../log/JESIL290.stdout 2> ../log/JESIL290.stderr" | at now
+echo  "runjob -p pat JESIL285 ccbcycle1 > ../log/JESIL285.stdout 2> ../log/JESIL285.stderr" | at now
+echo  "runjob -p pat JESIL298 ccbcycle1 > ../log/JESIL298.stdout 2> ../log/JESIL298.stderr" | at now
+echo  "runjob -p pat JESIL296 ccbcycle1 > ../log/JESIL296.stdout 2> ../log/JESIL296.stderr" | at now
+echo  "runjob -p pat JESIL292 ccbcycle1 > ../log/JESIL292.stdout 2> ../log/JESIL292.stderr" | at now
+echo  "runjob -p pat JESIL294 ccbcycle1 > ../log/JESIL294.stdout 2> ../log/JESIL294.stderr" | at now
+echo  "runjob -p pat JESIE170 ccbcycle1 > ../log/JESIE170.stdout 2> ../log/JESIE170.stderr" | at now
+echo  "runjob -p pat JESIE172 ccbcycle1 > ../log/JESIE172.stdout 2> ../log/JESIE172.stderr" | at now
+echo  "runjob -p pat JESIE174 ccbcycle1 > ../log/JESIE174.stdout 2> ../log/JESIE174.stderr" | at now
+echo  "runjob -p pat JESIE176 ccbcycle1 > ../log/JESIE176.stdout 2> ../log/JESIE176.stderr" | at now
+echo  "runjob -p pat JESIE178 ccbcycle1 > ../log/JESIE178.stdout 2> ../log/JESIE178.stderr" | at now
+echo  "runjob -p pat JESIE180 ccbcycle1 > ../log/JESIE180.stdout 2> ../log/JESIE180.stderr" | at now
+echo  "runjob -p pat JESIE182 ccbcycle1 > ../log/JESIE182.stdout 2> ../log/JESIE182.stderr" | at now
+echo  "runjob -p pat JESIE184 ccbcycle1 > ../log/JESIE184.stdout 2> ../log/JESIE184.stderr" | at now
+
+tail -f XESIL318.out.2
+******O-Drive Acess*******
+Path : \\Ldncl_ldn11_w.tdbfg.com\Dsgroup   
+	
+select tabname, tabschema, owner from syscat.tables where tabname='PARTY_FDR_COMPANY_CARD_WLM_T1'
+select funcname,funcschema   from syscat.functions where  funcname='PARTY_PERSON_MDM_T1'
+select *  from syscat.functions where  funcname='JOB_CTRL_NEXTDATE' and funcschema='ESI23'
+
+How to delete data from UNIX:
+load from /dev/null of del replace into krdem2.acct_holdng_balnce_das_t1_jesil034_old nonrecoverable
+
+http://www.3480-3590-data-conversion.com/article-packed-fields.html
+DEV1 ----  dcsmap51
+load client from /usr/opt/abinitio/data/bharar2/CIF/party_acct_cif_t1.mtg.del of del replace into mandad2.party_acct_cif_t1 nonrecoverable
+
+load client from /usr/opt/abinitio/data/bharar2/CIF/party_addr_cif_t1.mtg.del of del replace into mandad2.party_addr_cif_t1 nonrecoverable
+
+load client from /usr/opt/abinitio/data/bharar2/CIF/party_cif_t1.mtg.del of del replace into mandad2.party_cif_t1 nonrecoverable
+
+ 
+
+
+****Graph Sample Location*******
+/usr/opt/abinitio/user_sand/examples/graph-dev-basics/mp
+
+
+****Run Stats******
+runstats on table <<<$1>>> on all columns with distribution on all columns and indexes all
+
+***** Go to *****
+
+/td/logs/abinitio/db2remote
+mkdir -p /td/logs/abinitio/db2remote/mandad2/xesil610/dev/db2inst1
+
+
+***** Then ******
+
+vi /td/logs/abinitio/db2remote/rmt_dirs_table_list_mandad2
+
+Change the name of the JOB (Ex: xesiz504)
+
+
+********************************* Then Run this script *****************************
+
+/td/logs/abinitio/db2remote/rmt_dirs_concurrent mandad2 dev /td/logs/abinitio/db2remote/rmt_dirs_table_list_mandad2
+/td/logs/abinitio/db2remote/rmt_dirs_concurrent_kulkak2 mandad2 dev /td/logs/abinitio/db2remote/rmt_dirs_table_list_mandad2
+
+
+********************************* Staging Area Path********************************* 
+/td/pesi/staging/A236246/control
+
+
+*********************************Walk through Script*********************************
+
+ksh -x ab_initio_graph_walkthru.sh dev user_sand/mandad2/dev/agg/agg_core  <<Graph Name>>.ksh 
+ksh -x ab_initio_graph_walkthru.sh dev user_sand/mandad2/dev/agg/agg_core  agg_core_ntd_ledger_extract.ksh
+
+
+********************************* For Lookups Main Directory*************************
+
+/usr/opt/abinitio/data/td/serial/dev/agg/agg_core/main/mandad2
+
+
+***************cobol to Dml********************************
+
+cobol-to-dml -ebcdic -lowercase -all-if <<File Name>>
+
+
+*********************/var/preserve************************
+
+find /var/preserve -user mandad2 -exec rm -rf {} \;
+
+
+****************Remove Unwanted Files*********************
+
+find /td/logs/abinitio/dev -name "*gde*mandad2*" -user mandad2 -exec rm -rf {} \;
+find /td/logs/abinitio  -name "*watcher*mandad2*" -user mandad2 -exec rm -rf {} \;
+
+****************System SIT Paths*********************
+
+/usr/opt/abinitio/user_sand/bharar2/agg_core/dml
+
+
+****************Log Files to Delete Information*********************
+
+
+
+/td/logs/abinitio/system/esi/esi_trans/error
+
+
+
+/td/logs/abinitio/dev/pesi/esi_party
+
+/td/logs/abinitio/dev/agg/agg_core/summary/mandad2
+/td/logs/abinitio/dev/agg/agg_core/log/mandad2
+/td/logs/abinitio/dev/agg/agg_core/log/mandad2
+/td/logs/abinitio/dev/esi/esi_party/log/mandad2
+
+find . -user 'mandad2' -mtime +30 -name "*esi_gem_job_control_start*" -exec rm -rf {} \;
+find . -user 'mandad2' -mtime +30 -name "*esi_party*" -exec rm -rf {} \;
+find . -user 'mandad2'  -name "*esi_gem_job_control_start.log*" -exec rm -rf {} \;
+find . -user 'mandad2'  -name "*esi_gem_ftp_open_log.*" -exec rm -rf {} \;
+find . -user 'mandad2' -name "*other.log*" -exec rm -rf {} \;
+find . -user 'mandad2'  -name "*.val.log*" -exec rm -rf {} \;
+find . -user 'mandad2' -name "*.XESIL711*" -exec rm -rf {} \;
+find . -user 'mandad2' -name "*.log*" -exec rm -rf {} \;
+find . -user 'mandad2' -name "*.esi_gem_job_control_end.log*" -exec rm -rf {} \;
+find . -user 'mandad2' -name "*.log*" -exec rm -rf {} \;
+find /var/preserve -user mandad2 -exec rm -rf {} \;
+find . -user 'mandad2' -name "*.log*" -exec rm -rf {} \;
+
+find . -user 'mandad2' -mtime +15 -name "*esi_gem_file_control_start*" -exec rm -rf {} \;
+find . -user 'mandad2' -mtime +30 -name "*esi_gem_file_control_start*" -exec ls -ltr {} \;
+find . -user 'mandad2' -mtime +30 -name "*other.log*" -exec rm -rf {} \;
+find . -user 'mandad2' -mtime +15 -name "*esi_gem_file_control_start*" -print;
+
+
+****************Start Script Location*********************
+
+/td/pesi/dev/esi_gem/script
+/usr/opt/abinitio/user_sand/sit_execution
+
+
+*****************Air Objects Versions Chekcing *******************
+
+air object versions /Projects/dev/agg/agg_core/mp/agg_core_sav_hold_balance_extract.mp
+
+
+*****************Air Objects Versions Chekcing with EME and user_Sand graph *******************
+
+air sandbox diff -version 975392 /usr/opt/abinitio/user_sand/mandad2/dev/agg/agg_core/mp/agg_core_rda_depositor_extract.mp
+
+
+*****************Latest DDL Checking*****************
+
+/usr/opt/abinitio/ddlcreate/dev/
+
+
+*****************Table Creation*****************
+
+/td/pesi/dev/esi_trans/control/execute_ddl_control_mandad2
+
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s /td/pesi/dev/esi_trans/control/execute_ddl_control_mandad2 4.71
+	
+
+*******************************************EXTRACT*********************************************
+
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s mandad2 *pwcs /td/pesi/dev/bdw_core/control/execute_ddl_control_mandad2 6.03
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s esi23 *pwcs /td/pesi/dev/edw_core/control/execute_ddl_control_mandad2 6.03
+
+*******************************************LOAD*********************************************
+
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s mandad2 /td/pesi/dev/esi_org/control/execute_ddl_control_mandad2 5.99
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s mandad2 /td/pesi/dev/esi_party/control/execute_ddl_control_mandad2 6.53
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s mandad2 -t TS_MANDAD2 /td/pesi/dev/esi_party/control/execute_ddl_control_mandad2 6.82
+
+
+******************************EXTRACT***************************************************
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s mandad2 -pads /td/pesi/dev/bdw_core/control/execute_ddl_control_mandad2 5.97
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s mandad2 -pads /td/pesi/dev/edw_core/control/execute_ddl_control_mandad2 5.66
+
+
+******************************LOAD***************************************************
+
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s esi23 /td/pesi/dev/esi_party/control/execute_ddl_control_mandad2 6.05
+
+/usr/opt/abinitio/td_util/execute_ddl.ksh -s esi13 /td/pesi/dev/esi_acct/control/execute_ddl_control_mandad2 4.33
+
+
+***************** Create Table Statement using other Table in SQLSERVER ***********
+SELECT * INTO New_Table FROM Old_Table WHERE Condition
+
+
+***************** Create Table Statement using other Table in DB2 ****************
+Create table New_Table_Name like Old_Table_Name where condition
+
+
+*********************** To Truncate/Delete the data in a Table *******************
+	
+
+
+************************ To Grant all Permissions *********************
+grant all on esi13.d_rcm_account_group_prep to group etlsys
+
+
+*******************Air Object Diff***************************************************
+
+air object changed /Projects/dev/edw/edw_core/mp/edw_core_acct_mfs_extract.mp -version1 149935 -version2 356088 ñdiff
+air object changed /Projects/dev/agg/agg_common/mp/agg_common_recon.mp -version1 311196 -version2 1037861 ñdiff
+air object changed /Projects/dev/agg/agg_common/dml/caggt130_inter.dml -version1 475074 -version2 748786 ñdiff
+air object changed /Projects/dev/agg/agg_core/mp/agg_core_clc_ledger_extract.mp -version1 840894 -version2 815638 ñdiff
+
+air -version 805897 object cat /Projects/dev/agg/agg_core/run/agg_core_clc_ledger_extract.ksh | grep FILE_NAME_TDBK
+air -version 815638 object cat /Projects/dev/agg/agg_core/run/agg_core_clc_ledger_extract.ksh | grep FILE_NAME_TDBK
+air -version 840894 object cat /Projects/dev/agg/agg_core/run/agg_core_clc_ledger_extract.ksh | grep FILE_NAME_TDBK
+air -version 329 object cat /Projects/dev/esi/esi_common/dml/party_wss_t1.dml
+air -version 241198 project export /Projects/dev/agg/agg_core -basedir /usr/opt/abinitio/user_sand/kumary2/dev/agg/agg_core -files mp/agg_core_mtg_deposit_acct_extract.mp run/agg_core_mtg_deposit_acct_extract.ksh
+
+
+*******************Air Lock Show ***************************************************
+air lock show -object /Projects/dev/agg/agg_core/mp/agg_core_0999_subsystem_extract.mp
+
+air project files /Projects/dev/agg/agg_core -files mp/agg_core_0999_subsystem_extract.mp -verbose
+
+
+*******************Air Lock Break ***************************************************
+
+air lock break -object /Projects/dev/agg/agg_core/mp/agg_core_0999_subsystem_extract.mp
+
+*******************Air Ls Object***************************************************
+
+air object ls /Projects/dev/agg/agg_common/dml/caggt900.dml
+air object ls -ltr /Projects/dev/agg/agg_core/dml/caggt900.dml
+
+air object ls /Projects/dev/agg/agg_core/mp/agg_core_mtg_deposit_acct_extract.mp
+
+
+*******************Air Rm Object***************************************************
+air object rm /Projects/dev/agg/agg_core/dml/agg_core_caggt239.dml
+air object rm /Projects/dev/agg/agg_common/dml/caggt900.dml
+air object rm /Projects/dev/agg/agg_core/mp/agg_core_mtg_deposit_acct_extract.mp
+
+*****************Tables *****************
+
+TABLE_NAME1 ads_trade_calcpg_c01_t1
+UPDATE_TABLE_NAME1 ads_trade_calcpg_c01_u1
+TABLE_NAME2 ads_f_trade_latest_version_calcpg_c01_t1
+TABLE_NAME3 ads_f_trade_audit_calcpg_c01_t1
+
+SUROGT_KEY_XREF_TABLE_NAME  tds_esi_surogt_key_xref_calcpg_c01_t1
+SUROGT_KEY_XREF_SCHEMA_NAME ESI
+
+
+ads_trade_calcpg_c01_t1 y y y y
+ads_f_trade_latest_version_calcpg_c01_t1 y y y y
+ads_f_trade_audit_calcpg_c01_t1 y y y y
+tds_esi_surogt_key_xref_calcpg_c01_t1 y y y y
+
+
+alter table mandad2.ads_trade_calcpg_c01_u1 activate not logged initially with empty table
+alter table mandad2.ads_f_trade_latest_version_calcpg_c01_t1 activate not logged initially with empty table 
+alter table mandad2.ads_f_trade_audit_calcpg_c01_t1 activate not logged initially with empty table 
+alter table mandad2.tds_esi_surogt_key_xref_calcpg_c01_t1 activate not logged initially with empty table 
+alter table mandad2.ads_trade_calcpg_c01_d1 activate not logged initially with empty table 
+
+
+
+*************Find Command Options****************
+  find . -user 'mandad2' -mtime +15 -name "XESIZ425_0.723.other.log" -print;
+  find . -user 'mandad2' -mtime +15 -name "*XESIZ425_0.723.other.log*" -exec ls -ltr {} \;
+  find . -name *.log -user mandad2 -size +200M -print
+  find . -name *.log* -user mandad2 -size +200M -exec ls -ltr {} \;
+  find . -name "*.log" -user mandad2 - exec ls -ltr {} \;
+  find . -name "*.log" -user mandad2 -exec ls -ltr {} \;
+  find . -name "*.log" -user mandad2 -size +100000000 -exec ls -ltr {} \;
+  find . -name "*.log" -user mandad2 -size +200M -exec ls -ltr {} \;
+  find . -name "*.log" -user mandad2 -size +100000000 -exec ls -ltr {} \;
+
+grep '(decimal("|"))' *|egrep -v 'bkp|19|13|36|esi_gem_log_and_optional_reject'|egrep 'deposit_acct_extract.ksh'
+
+*******Mainframe Help*********************
+http://docweb.cns.ufl.edu/docs/d0089/d0089.pdf
+http://www.sysed.com/DnLoads/QualityContents/TSO-ISPF/06_TSO_ISPF_AppA_ISPF_PDF_Command_Summary.ds.pdf
+
+
+
+
+
+cat agg_core_mi_failure_ctlcard_extract.ksh|egrep 'E_ESI'|egrep -v 'JOB_EVENT_ID|UNQUOTED|FV_LOG_FILE' > /home/rajanh2/param.txt
+cat *_extract.ksh| egrep 'CDIC_ENCRYPTED_PASSWORD'| egrep -i 'pcr58'
+
+='Sheet1'!A1='Sheet2'!A1
+
+
+air -version 303924  project export /Projects/dev/esi/esi_party -basedir  /usr/opt/abinitio/user_sand/mandad2/dev/esi/esi_party -files mp/esi_party_wss_wlm_load.mp
+air -version 1223284 project export /Projects/dev/esi/esi_org -basedir /usr/opt/abinitio/user_sand/mandad2/dev/esi/esi_org -files mp/esi_org_ere_building_load.mp
+
+air sandbox diff -version 777895 /usr/opt/abinitio/user_sand/mandad2/dev/esi/esi_party/mp/esi_party_mdm_wlm_load.mp
+air sandbox diff -version 320127 /usr/opt/abinitio/user_sand/mandad2/dev/esi/esi_party/mp/esi_party_wss_party_load.mp
+air sandbox diff -version 303924 /usr/opt/abinitio/user_sand/mandad2/dev/esi/esi_party/mp/esi_party_wss_party_load.mp
+
+air sandbox diff -version 1501316 /usr/opt/abinitio/user_sand/mandad2/dev/esi/esi_party/mp/esi_party_fdr_comp_wlm_load.mp
+air project analyze-dependencies  /Projects/dev/esi/esi_party pset/esi_party_noshr_wlm_load_630.pset
+
+
+
+EXPORT AND IMPORT:
+
+/*****EXPORT*****/////
+export to ramanm3.wcs_product_prev_26_july_2012_123 of del messages msg.txt
+ select * from ramanm3.wcs_product_prev where product_key ='SYM_IVN120922P10XY' fetch first 1 rows only;. 
+
+/****IMPORT*****/
+ import from esi.regstr_rep_cstctr_xref_gls_t1_11_aug_2012_cs of del messages msg.txt 
+  insert into  godis2.regstr_rep_cstctr_xref_gls_t1
+
+out :: reformat(in) = 
+begin 
+  out.* :: (string("")) string_convert_explicit((utf8 string("\x01"))in.*, "ISO-8859-1", "*"); 
+end;
+
+
+
+
+
+SQL1024N  A database connection does not exist.  SQLSTATE=08003
+
+
+
+
+Index:
+let string(50) p_field_name =' ';
+let integer(4) record_count =0;
+let integer(4) r_count =0;
+out::output_index(in)=
+begin
+let int idx =0;
+
+ if(not record_count)
+   begin
+      p_field_name  = in.field_name;
+   end
+if(string_lrtrim(p_field_name)== in.field_name)
+   begin
+     r_count = r_count + 1;
+       if (r_count <= 50)
+          idx = 0;
+          else
+         idx = 1;
+       end
+else
+   begin            
+      p_field_name  = in.field_name;
+      r_count = 1;
+       idx = 0;
+   end    
+    record_count= record_count +1;
+  out :: idx;
+end;
+
+
+
+METAPROGRAMMIN TRANSFORM:
+type query_result_type=;
+let query_result_type dummy_rec=allocate();
+let dml_field_info_vec query_result_type_src = record_info(type_of(dummy_rec));
+
+out :: search_unsorted(in_vec, str) =
+begin
+  let int res=-1;
+  for(let i, i<length_of(in_vec))
+    if(in_vec[i] == str)
+      res = i;
+  out :: res;
+end
+
+
+out :: join_with_db(in, query_result) =
+begin
+  let string("\t") m_field_name=' ';
+  let string("\t") m_diff=' ';
+  let string("") field_form="";
+  let string("") data_type="";
+  let long field_pos=search_unsorted(string_split_no_empty("", ' '), in.field_name);
+  let fld_val_2 = string_lrtrim((string(""))eval(query_result, string_split_no_empty("CMLS_NATL_NET_SALES_TAX_AMT.value CMLS_NATL_NET_OTH_AMT_TYP_CD CMLS_NATL_NET_IMPCT_TYP_CD CMLS_NATL_NET_OTH_AMT.value CMLS_NATL_NET_IRF_CALCN_AMT.value CMLS_NATL_NET_DMSTC_TOKN CMLS_VMP_FLG CMLS_DATA_ENCRPTN_KEY_MGMT_SCHM_CD CMLS_DATA_ENCRPTN_ALGM_CD CMLS_DATA_ENCRPTN_ZONE_KEY_IDX CMLS_DATA_ENCRPTN_MOD10_SGNL_FLG CMLS_DATA_ENCRPTN_VFPE_SGNL_FLG CMLS_MRCH_PAN CMLS_DATA_ENCRPTN_VFPE_SGNL_FLG_MISSG_EXPIRN_DT CMLS_DATA_ENCRPTN_TRAN_FLG_NON_VFPE CMLS_ATM_TYP_CD CMLS_PRODCT_QLFR CMLS_EXPNDD_FUEL_TYP CMLS_EXPNDD_NON_FUEL_PRODCT_CD_1 CMLS_CSHBK_AMT.value CMLS_CSHBK_AMT_USD.value CMLS_DEST_AMT.value CMLS_SETLMT_DEST_SETLMT_AMT.value CMLS_SETLMT_SRCE_AMT_USD.value CMLS_SETLMT_SRCE_SETLMT_AMT.value CMLS_SETLMT_SSBC_AMT.value CMLS_SRCE_AMT.value CMLS_SRCE_FEE_DIFF_AMT.value CMLS_SRCE_SETLMT_AMT_SC.value CMLS_SRCHG_AMT.value CMLS_SRCHG_AMT_CRDH_BILL_CURR.value CMLS_TOT_AUTH_TRAN_AMT.value CMLS_TRAN_AMT.value CMLS_ACCT_FUNDG_SRCE_CD CMLS_DEST_BIN CMLS_DEST_CURR_CD CMLS_RWDS_PGM_ID CMLS_MRCH_CATG_CD_RAW CMLS_ISSR_CTRY_DFLT_CURR_CD CMLS_SPND_QLFD_IND CMLS_SRCE_AMT_ISSR_CTRY_DFLT_CURR.value CMLS_SCS_VRFCN_IND CMLS_WLT_PROVR_ID CMLS_AFFLNT_TRVL_CD CMLS_AFFLNT_TRVL_INTNL_CD CMLS_NUM_OF_PYMT_FORMS CMLS_TXT_ALRT_TO_CRDH_CD", ' ')[field_pos]));
+  m_field_name = string_split_no_empty("CMLS_NATL_NET_SALES_TAX_AMT.value CMLS_NATL_NET_OTH_AMT_TYP_CD CMLS_NATL_NET_IMPCT_TYP_CD CMLS_NATL_NET_OTH_AMT.value CMLS_NATL_NET_IRF_CALCN_AMT.value CMLS_NATL_NET_DMSTC_TOKN CMLS_VMP_FLG CMLS_DATA_ENCRPTN_KEY_MGMT_SCHM_CD CMLS_DATA_ENCRPTN_ALGM_CD CMLS_DATA_ENCRPTN_ZONE_KEY_IDX CMLS_DATA_ENCRPTN_MOD10_SGNL_FLG CMLS_DATA_ENCRPTN_VFPE_SGNL_FLG CMLS_MRCH_PAN CMLS_DATA_ENCRPTN_VFPE_SGNL_FLG_MISSG_EXPIRN_DT CMLS_DATA_ENCRPTN_TRAN_FLG_NON_VFPE CMLS_ATM_TYP_CD CMLS_PRODCT_QLFR CMLS_EXPNDD_FUEL_TYP CMLS_EXPNDD_NON_FUEL_PRODCT_CD_1 CMLS_CSHBK_AMT.value CMLS_CSHBK_AMT_USD.value CMLS_DEST_AMT.value CMLS_SETLMT_DEST_SETLMT_AMT.value CMLS_SETLMT_SRCE_AMT_USD.value CMLS_SETLMT_SRCE_SETLMT_AMT.value CMLS_SETLMT_SSBC_AMT.value CMLS_SRCE_AMT.value CMLS_SRCE_FEE_DIFF_AMT.value CMLS_SRCE_SETLMT_AMT_SC.value CMLS_SRCHG_AMT.value CMLS_SRCHG_AMT_CRDH_BILL_CURR.value CMLS_TOT_AUTH_TRAN_AMT.value CMLS_TRAN_AMT.value CMLS_ACCT_FUNDG_SRCE_CD CMLS_DEST_BIN CMLS_DEST_CURR_CD CMLS_RWDS_PGM_ID CMLS_MRCH_CATG_CD_RAW CMLS_ISSR_CTRY_DFLT_CURR_CD CMLS_SPND_QLFD_IND CMLS_SRCE_AMT_ISSR_CTRY_DFLT_CURR.value CMLS_SCS_VRFCN_IND CMLS_WLT_PROVR_ID CMLS_AFFLNT_TRVL_CD CMLS_AFFLNT_TRVL_INTNL_CD CMLS_NUM_OF_PYMT_FORMS CMLS_TXT_ALRT_TO_CRDH_CD", ' ')[field_pos]; 
+  
+  field_form=query_result_type_src[field_pos].form;
+  data_type=query_result_type_src[field_pos].dml_type;
+  out.* :: in.*;
+  out.field_name ::  m_field_name;
+  out.fld_value_2 :: fld_val_2;
+ 
+ /* out.diff_flag :: field_form == "decimal" ? 
+                 (string_lrtrim(in.fld_value) == string_filter_out(fld_val_2,".") ? 'OK' : 'Not OK') :
+                 field_form == "string" ? 
+                 (string_lrtrim(in.fld_value) == string_lrtrim(fld_val_2) ? 'OK' : 'Not OK') :
+                 (string_lrtrim(in.fld_value) == fld_val_2 ? 'OK' : 'Not OK');*/
+ out.diff_flag :: field_form == "decimal"  ?
+                 ((decimal(""))string_lrtrim(decimal_strip(in.fld_value)) == (decimal(""))string_filter_out(decimal_strip(fld_val_2),".") ? 'OK' : 'Not OK') :
+                 field_form == "datetime" ? 
+                 ((datetime("YYYY-MM-DD HH24:MI:SS.NNNNNN"))(datetime("YYYYMMDDHH24MISSNNNNNN"))(in.fld_value) == fld_val_2 ? 'OK' : 'Not OK') :
+                 field_form == "string" ? 
+                 (string_lrtrim(in.fld_value) == string_lrtrim(fld_val_2) ? 'OK' : 'Not OK') :
+                 (string_lrtrim(in.fld_value) == fld_val_2 ? 'OK' : 'Not OK');
+                                                                                                                    
+end;
+
+
+
+Normalize:
+let string("")[4]field_list = [vector "CMLS_NATL_NET_IRF_CALCN_AMT.value", "CMLS_NATL_NET_DMSTC_TOKN", "CMLS_VMP_FLG", "CMLS_DATA_ENCRPTN_KEY_MGMT_SCHM_CD"];
+
+out::length(in)=
+begin
+  out :: 4;
+end;
+
+
+out::normalize(in, index)=
+begin
+  let string("")input_field_ref=if("CSICS" == "UB") string_concat("auth",".","V004",".") else "";
+  let string("")fld_nm=field_list[index];
+  let string("")fld_val=(string(""))eval(in, string_concat(input_field_ref,fld_nm));
+  out.* :: string_filter_out(string_representation(in.*), '"');
+  out.field_name :: fld_nm;
+  out.fld_value :: string_replace(fld_val, "\t", " ");
+end;
+
+
+
+
+Tetra:
+
+
+
+
+air project export /Projects/ -basedir /sandboxes/dxmandala/Projects \
+   -common /Projects public -export-commons
+
+
+air project export /Projects/abcbs/dwh/dwh_etg_erg -basedir /sandboxes/dxmandala/Projects/abcbs/dwh/dwh_etg_erg/
+
+
+record
+  if (get_flow_state() == 0) // first record
+    begin
+      string(7) store_name;
+      decimal(2,0) count;
+    end
+  else                      // subsequent records
+    begin
+      string(6) item_name;
+      decimal(7,2) price;
+      decimal(3,0) quantity;
+    end
+  double next_flow_state() =
+    if (get_flow_state() == 0)
+      count
+    else
+      get_flow_state() - 1;
+end
+
+m_eval 're_replace("vinod***krishna","(\\*+)", "|")'
+
+"vinod|krishna"
+
+m_eval 're_replace("00000 Vinod 000 Krishna 0000", "(0.+)", "|")'
+
+"|"
+
+m_eval 're_replace("00000 Vinod 000 Krishna 0000", "(0.)", "|")'
+
+"|||Vinod ||Krishna ||"
+
+_eval 're_replace("00000 Vinod 000 Krishna 0000", "(^0+)|($0+)", "|")'
+"| Vinod 000 Krishna |"
+
+-----------------------
+air object rollback  -to-version 81826 /Projects/abcbs/dwh/dwh_ims_to_db2/mp/IMS_DBDECNT_DAILY.mp
+
+
+
+Select distinct(name), ColType, Length from Sysibm.syscolumns where tbname ='DWS_DRUG_MEDCO_DETAIL'
+
+
+$ m_eval 're_replace("00000 Vinod 000 Krishna 0000", "((?U)0+)", "|")'
+"||||| Vinod ||| Krishna ||||"
+
+
+$[add_fields(read_type("/home/dxmandala/test.dml"),[vector make_field("disch_ind","decimal(1)","0")])]
+
+
+
+
+
+
+
+
+
+
+########################################PDL STUFFS###############################
+ $[begin
+  let int i = 0;
+  let string(int)[] fld =string_split(vector,",");
+  let dml_field_info_vec fld_vec=[vector];
+  for (i, i < length_of(fld))
+  begin
+  if(i != length_of(fld)-1)
+fld_vec=vector_append(fld_vec, make_field(fld[i], "string('\\x01')"));
+else   
+fld_vec=vector_append(fld_vec, make_field(fld[i], "string('o)"));
+  end
+   
+  result::add_fields('record\nend',fld_vec);
+end;
+]
+
+
++++++++
+
+record
+if ( get_flow_state () == 0)
+string (ì6) comp_name;
+else
+begin
+decimal (3) empno;
+string (5) fname;
+string (4) lname;
+string (8) city;
+end
+double next_flow_state () =1 ;
+end; 
+
+===========================================
+
+*let decimal("\x00")[int] prev_all_f5 = allocate();*
+type temporary_type =
+record
+decimal("\x00") sum_f5;
+* decimal("\x00")[int] current_vec_f5 = allocate();*
+decimal("\x00") sum_f6;
+decimal("\x00") sum_f7;
+end;
+
+temp :: initialize(in) =
+begin
+temp.sum_f6 :: 0;
+temp.sum_f7 :: 0;
+temp.sum_f5 :: 0;
+end;
+
+out :: rollup(temp, in) =
+begin
+*out.sum_f5 :: temp.sum_f5 + if(vector_bsearch(prev_all_f5,in.f5) != -1)
+0 else if(vector_bsearch(temp.current_vec_f5,in.f5) == -1) in.f5 else 0;*
+* out.current_vec_f5:: vector_append(temp.current_vec_f5,in.f5);*
+out.sum_f6 :: (temp.sum_f6 + in.f6);
+out.sum_f7 :: (temp.sum_f7 + in.f7);
+end;
+
+out :: finalize(temp, in) =
+begin
+* prev_all_f5 = vector_concat(prev_all_f5,temp.current_vec_f5);*
+out.*::in.*;
+out.f5:: temp.sum_f5;
+out.f6::temp.sum_f6;
+out.f7::temp.sum_f7;
+end; 
+
+
+========================================================================================
+record
+string(",") rec_type;
+string(",") data_1;
+decimal(",") data_2;                                         
+date("DD/MM/YYYY") rec_date;
+string(1) newline= "/n";
+string(5) new_field;
+end.
+
+But my expected result is
+
+record
+string(",") rec_type;
+string(",") data_1;
+decimal(",") data_2;
+date("DD/MM/YYYY") rec_date;
+string(5) new_field;
+string(1) newline= "/n";
+end.
+.....
+
+$[
+begin
+let int i = 0;
+let dml_field_info_vec field_info = record_info(read_type("dml file path"));
+let dml_field_info_vec new_field = [vector make_field("newly_added_field", "string(',')")];
+for (i ,i < length_of(field_info))
+begin
+if( i != length_of(fld)-1)
+new_field=vector_append(field_info,new_field));
+end
+result :: add_fields("record\nend",new_field);
+
+
+======================
+
+out.(form=="string") :: in.*;
+out.* :: in.*;
+
+
+=======================================
+ $[ begin
+let i=0;
+let string(int) trans = make_transform("reformat", [vector make_arg("in")]);
+let dml_field_info_vec info_vec = record_info(DML);
+let dml_rule_vec rules = [vector  make_rule("out.*","in.*")];
+ for (i, i < length_of(info_vec))
+ begin
+ rules = vector_append(rules,if(info_vec[i].name == 'audit_key') make_rule("out."+ info_vec[i].name,'lookup("dwh_etg_erg_epi_ref_tables_refresh_audit_key.lkp").audit_key')  else  make_rule("out."+ info_vec[i].name,"in."+ info_vec[i].name))
+ end;
+  
+result :: add_rules(xfr = trans, rule_vec = rules );
+end;
+]
+
+==============================UNIX======================================
+
+grep -A (num of lines after) -B (num of lines before) ***pattern*** filename
+
+
+
+
+cat input.txt | head -4 | tail -3
+
+sed s/good/bad/g  < input.txt
+
+sed 's/\//,/g'  < input.txt
+
+
+
+
+#########################################################SCRIPT##########################################
+Start_date:
+
+#!/bin/ksh
+for i in 2012-02-01
+do
+echo $i
+#first_date= echo $i |awk -F " " '{print $1}'
+month=`echo $i | cut -d'-' -f2`
+echo $month
+year=`echo $i | cut -d'-' -f1`
+echo $year
+lp=`expr $year % 4`
+echo $lp
+
+if [ $month -eq 01 ] || [ $month -eq 03 ] ||[ $month -eq 05 ] ||  [ $month -eq 07 ] || [ $month -eq 08 ] || [ $month -eq 10 ] || [ $month -eq 12 ];
+then
+r1=`date -d "$i +31days" +%Y-%m-%d`
+echo $r1
+elif [ $month -eq 02 ] && [ $lp -eq 0 ];
+then
+r1=`date -d "$i +29days" +%Y-%m-%d`
+echo $r1
+elif [ $month -eq 02 ] && [ $lp -eq 1 ];
+then
+r1=`date -d "$i +28days" +%Y-%m-%d`
+echo $r1
+else
+r1=`date -d "$i +30days" +%Y-%m-%d`
+echo $r1
+fi
+done
+
+
+End_date:
+
+for i in 2013-03-31
+do
+echo $i
+#first_date= echo $i |awk -F " " '{print $1}'
+month=`echo $i | cut -d'-' -f2`
+echo $month
+year=`echo $i | cut -d'-' -f1`
+echo $year
+lp=`expr $year % 4`
+echo $lp
+if [ $month -eq 04 ] || [ $month -eq 06 ] ||[ $month -eq 07 ] ||  [ $month -eq 09 ] || [ $month -eq 12 ] ;
+then
+r1=`date -d "$i +31days" +%Y-%m-%d`
+echo $r1
+elif [ $month -eq 03 ] || [ $month -eq 05 ] ||[ $month -eq 08 ] ||  [ $month -eq 10 ] || [ $month -eq 11 ] ;
+then
+r1=`date -d "$i +30days" +%Y-%m-%d`
+echo $r1
+elif [ $month -eq 02 ] && [ $lp -eq 0 ];
+then
+r1=`date -d "$i +31days" +%Y-%m-%d`
+echo $r1
+elif [ $month -eq 02 ] && [ $lp -eq 1 ];
+then
+r1=`date -d "$i +31days" +%Y-%m-%d`
+echo $r1
+else
+r1=`date -d "$i +28days" +%Y-%m-%d`
+echo $r1
+fi
+done
+#############################################################AWK COMMANDS##########################################
+========================================================================================================================
+AWK Command - Predefined Variables
+========================================================================================================================
+
+NR 			- Count of the number of input lines (real-time value)
+
+NF 			- Count of the number of words in an input line ($NF corresponds to the last field)
+
+FILENAME 		- Name of input file
+
+FS 			- "Field Separator" character used to divide fie lds on the input line (default is all "white space"). 
+			   FS assigned another character to change the field separator.
+
+RS 			- "Record Separator" character delimiting records, which by default are single lines separated by a "newline".
+
+OFS 			- "Output Field Separator" used when printing (default is a "space").
+
+ORS			 - "Output Record Separator" used when printing (default is a "newline" character). 
+
+========================================================================================================================
+Functions
+========================================================================================================================
+
+length 			the length of its argument taken as a string, or of $0 if no argument.
+
+rand 			random number between 0 and 1
+
+srand 			sets seed for rand and returns the previous seed.
+
+int 			truncates to an integer value
+
+substr(s, m, n) 		the n-character substring of s that begins at position m counted from 1.
+
+index(s, t) 			the position in s where the string t occurs, or 0 if it does not.
+
+match(s, r) 		the position in s where the regular expression r occurs, or 0 if it does not. The variables RSTART and RLENGTH are set to the position and length of the matched string.
+
+split(s, a, fs) 		splits the string s into array elements a[1], a[2], ..., a[n], and returns n. The separation is done with the regular expression fs or with the field separator FS if fs is not given. An empty string as field separator splits the string into one array element per character.
+
+sub(r, t, s) 			substitutes t for the first occurrence of the regular expression r in the string s. If s is not given, $0 is used.
+
+gsub 			same as sub except that all occurrences of the regular expression are replaced; sub and gsub return the number of replacements.
+
+sprintf(fmt, expr, ... ) 		the string resulting from formatting expr ... according to the printf format fmt
+
+system(cmd) 		executes cmd and returns its exit status
+
+tolower(str) 		returns a copy of str with all upper-case characters translated to their corresponding lower-case equivalents.
+
+toupper(str) 		returns a copy of str with all lower-case characters translated to their corresponding upper-case equivalents.
+
+========================================================================================================================
+Examples
+========================================================================================================================
+
+1)	awk 'length($0) > 72' text.txt
+
+		- > Print only lines of the file text.txt that are longer than 72 characters.
+
+2)	awk '{ print $2, $1 }' data.txt
+
+		-> Print first two fields of data in oppeosite order
+
+3)	awk '$1 >200' employee.txt
+
+		-> Find the employees who has employee id greater than 200
+
+4)	awk '$4 ~/Technology/' employee.txt
+
+		-> Now department name is available as a fourth field, so need to check if $4 matches with the string "Technology", if yes print the line.
+
+5)	awk -F":" '{ print $1 " " $3 }' /etc/passwd	
+
+		-> When you call print this way, it'll concatenate $1, " ", and $3, creating readable output.
+
+6)	 awk -F":" '{ print "username: " $1 "\t\tuid:" $3 }' /etc/passwd
+
+		-> When you call print this way, it'll concatenate $1, " ", and $3, creating readable output. Of course, we can also insert some text labels if needed
+
+7) 	NR == 1 {m=$1 ; p=$1}
+	$1 >= m {m = $1}
+	$1 <= p {p = $1}
+	END { print "Max = " m, "   Min = " p }
+
+		-> Find maximum and minimum values present in column 1
+
+8) 	ls -l|awk '$1!~/^drwx/{print $9}'|xargs rm 
+
+		-> Remove only files.
+
+9)	ls -l|awk '$1~/^d.*x/{print $9}'|xargs rm -r
+
+		-> Remove only Directories.
+
+			******* Be careful when trying this out in your home directory. We remove things! 
+
+###################################################################NEW###############################################################################
+#!/bin/ksh
+count=`m_db unload $DWH_COMMON_DB/dwh_datawhse_db2eee.dbc  -column_delimiter '' -select "SELECT  count(*)              
+FROM    DSNW.DWS_MTH_PATIENT`
+echo $count | mailx -s "Table was loaded" dxmandala@ARKBLUECROSS.com
+
+
+
+
+vector_append(rules,make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i]),2d))
+
+
+let string(int) trans= make_transform("rollup", [vector make_arg("in")], [vector make_arg("out")]);
+
+
+
+rules = vector_append(rules,make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])),make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in0.",SECOND_FIELDS[i]),2d));
+
+
+
+ [vector make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])),make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i]),2d));
+ 
+ 
+ rules1=vector_append(rules1,make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])));
+ rules=vector_append(rules1,make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i])));
+ 
+ 
+ 
+ 
+ 
+ add_rules(xfr=trans,[vector make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])),make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i]),2d)]);
+ 
+ 
+ 
+ $[begin
+
+let int i = 0;
+let int j=0;
+let int count = length_of(FIRST_FIELDS);
+let int count1 = length_of(SECOND_FIELDS);
+let dml_rule_vec rules = [vector];
+let string(int) trans= make_transform("join", [vector make_arg("in0"), make_arg("in1")], [vector make_arg("out")]);
+while (i < count)
+begin
+rules=vector_append(rules,make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])));
+i=i+1;
+end;
+
+while (j< count1)
+begin
+
+rules=vector_append(rules,make_rule(string_concat("out.",SECOND_FIELDS[j]),string_concat("in1.",SECOND_FIELDS[j]),2d));
+j=i+1;
+end
+
+result :: add_rules(trans,rules);
+end;
+]
+
+
+=========================================================================================================
+rules = vector_append(rules,make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])),make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in0.",SECOND_FIELDS[i]),2d));
+
+
+
+ [vector make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])),make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i]),2d));
+ 
+ 
+ rules1=vector_append(rules1,make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])));
+ rules=vector_append(rules1,make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i])));
+ 
+ 
+ 
+ 
+ 
+ add_rules(xfr=trans,[vector make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])),make_rule(string_concat("out.",SECOND_FIELDS[i]),string_concat("in1.",SECOND_FIELDS[i]),2d)]);
+ 
+ 
+ 
+ $[begin
+
+let int i = 0;
+let int j=0;
+let int count = length_of(FIRST_FIELDS);
+let int count1 = length_of(SECOND_FIELDS);
+let dml_rule_vec rules = [vector];
+let string(int) trans= make_transform("join", [vector make_arg("in0"), make_arg("in1")], [vector make_arg("out")]);
+while (i < count)
+begin
+rules=vector_append(rules,make_rule(string_concat("out.",FIRST_FIELDS[i]),string_concat("in0.",FIRST_FIELDS[i])));
+i=i+1;
+end;
+
+while (j< count1)
+begin
+
+rules=vector_append(rules,make_rule(string_concat("out.",SECOND_FIELDS[j]),string_concat("in1.",SECOND_FIELDS[j]),2d));
+j=i+1;
+end
+
+result :: add_rules(trans,rules);
+end;
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$[
+begin
+let dml_field_info_vec svc_ln_tran_dml = record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_tran.dml"),"newline"));
+let dml_field_info_vec svc_ln_tran_drug_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_tran_drug.dml"),[vector "audit_key","svc_ln_key","newline" ]));
+let dml_field_info_vec svc_ln_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln.dml"),[vector "svc_ln_key","claim_key", "audit_key","newline","source_code","data_source","fin_cycle_dt","contract_id" ]));
+let dml_field_info_vec svc_ln_drug_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_drug.dml"),[vector "claim_key", "audit_key","svc_ln_key","sys_contract_id","vendor_contract_id","adjust_rsn_key","daw_key","dosage_type_key",drug_disp_days_supply_actual","drug_disp_days_supply_intend" ]));
+
+let dml_field_info_vec combine_dml = vector_concat(vector_concat(vector_concat(svc_ln_dml,svc_ln_drug_dml),svc_ln_tran_drug_dml),svc_ln_tran_dml);
+
+result :: add_fields("record\nend",combine_dml);
+
+end
+]
+
+
+
+$[
+begin
+let dml_field_info_vec svc_ln_tran_dml = record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_tran.dml"),"newline"));
+let dml_field_info_vec svc_ln_tran_drug_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_tran_drug.dml"),[vector "audit_key","svc_ln_key","newline" ]));
+let dml_field_info_vec svc_ln_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln.dml"),[vector "svc_ln_key","claim_key", "audit_key","newline","source_code","data_source","fin_cycle_dt","contract_id" ]));
+let dml_field_info_vec svc_ln_drug_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_drug.dml"),[vector   "daw_key", "svc_ln_tran_key","adjust_rsn_key","dosage_type_key",   "drug_route_key",   "adjust_amt",   "cov_charge_amt",   "drug_disp_days_supply_actual",   "drug_disp_days_supply_intend",   "drug_disp_fee_amt_pd",   "drug_disp_fee_amt_submit",   "drug_disp_qty_actual",   "drug_disp_qty_intend",   "ingrd_cost_amt_pd",   "ingrd_cost_amt_submit",   "max_reduct_amt",   "mbr_age",   "net_due_amt",   "pharm_sav_amt",   "prod_sel_amt",   "sel_incent_fee_pd_amt",   "adjust_dt", "mbr_dob",   "pscript_fill_dt",   "drug_gcn_cd",   "mbr_gender_cd",   "thera_class_ahfscc",   "thera_class_generic",   "drug_gpi_cd",   "drug_gpi_name",   "drug_strength",   "mbr_first_name",   "vendor_mbr_id",   "mbr_last_name",   "mbr_middle_name",   "pharm_prov_id", "debit_credit_cd",   "compound_drug_ind",   "days_supply",   "pharm_pscript_nbr",   "billed_metric_qty",   "pscript_written_dt",   "pscript_refills_auth",   "adjust_seq_nbr_within_batch",   "formulary_ind",   "mbr_rel_key",   "pharm_alt_prov_id",   "pharm_prov_id_type_key", "pscribr_prov_id",   "pscribr_first_name",   "pscribr_last_name",   "after_max_amt",   "avg_whlsl_price",   "drug_disp_status_key",   "specialty_drug_key",   "client_pricing_basis_key",   "sls_tax_flat_pd_amt",   "sls_tax_pct_pd_amt",   "tot_pd_all_src_amt",   "drug_cat_key",   "drug_generic_name",   "drug_maint_ind",   "dea_schedule_key",   "drug_pricing_type_cd",   "drug_disp_type_key",   "claim_id_xref",   "pscribr_alt_prov_id",   "rej_amt",   "asepse_ind",   "mbr_reimb_ind",   "coins_pct",   "over_cap_amt",   "copay_stop_loss_amt",   "copay_submit_amt",   "client_adjust_amt",   "sel_incent_sav_amt",   "troop_accum_after_claim_amt",   "troop_accum_before_claim_amt",   "adjust_issue_id",   "mfg",   "contract_mbr_id",   "medicare_hic_mbr_id",   "hier_grp_direct_cd",   "hier_income_liab_cd",   "contract_st_2_based_on_zip",   "div_st_2_based_on_zip",   "hier_ben_prog_cd",   "hier_corp_cd",   "hier_policy_plan_cd",   "hier_prod_type_cd",   "hier_subline_cd",   "hier_src_cd",   "hier_rt_type_cd",   "sys_contract_county_2_cd",   "sys_contract_st",   "sys_div_county_2_cd",   "sys_div_st",   "contract_county_3_based_on_zip",   "hier_assoc_cd",   "hier_class_cd",   "sys_corp_cd",   "sys_div_nbr_mbrship_span",   "contract_zip",   "div_zip",   "fin_region_st_cd",   "hier_net_cd",   "hier_region_st_cd",   "grp_plus_div_star",   "sys_contract_zip",   "sys_div_zip",   "sys_contract_holder_ssn",   "sys_mbr_ssn",   "sys_grp_nbr",   "tmg_hier_plan_id",   "tmg_hier_prod_id",   "sys_contract_id",   "cms_facility_ind",   "adjust_rcd_type_key",   "vendor_batch_nbr",   "sys_grp_rgn_cd",   "pscribr_npi",   "thera_class_specific",   "pharm_alt_prov_id_type_key",   "pscribr_prov_id_type_key",   "thera_class_standard",   "vendor_key",   "legal_status_cd",   "mbr_lookup_rule_nbr",   "adjust_time",   "pharm_npi",   "drug_form_status_key",   "pscript_svc_render_loc_cd",   "drug_id_code_set_key",   "drug_tier_comm",   "sbmtr_drug_bill_type_key",   "govt_claim_type_key",   "mbr_gender_key",   "div_county_3_based_on_zip",   "drug_tier_aca",   "grace_period_ind",   "grace_period_start_dt",   "cms_exchange_id",   "hios_serf_prod_id",   "drug_plan_cd",   "claim_key",   "pbp_id",   "ami_carrier_cd_calc",   "vendor_carrier_id",   "vendor_grp_id",   "rider_type",   "rider_tier",   "vendor_contract_id",   "drug_tier_govt",   "tax_submit_amt",   "vendor_acct_id",   "drug_refill_nbr",   "pscript_nbr"]));
+
+//let dml_field_info_vec combine_dml = vector_concat(vector_concat(vector_concat(svc_ln_dml,svc_ln_drug_dml,svc_ln_drug_dml),svc_ln_tran_drug_dml),svc_ln_tran_dml);
+let dml_field_info_vec combine_dml =join_types(svc_ln_dml,svc_ln_drug_dml,svc_ln_drug_dml,svc_ln_tran_drug_dml,svc_ln_tran_dml);
+
+//let dml_field_info_vec combine_dml = vector_intersection(svc_ln_tran_dml,svc_ln_tran_drug_dml);
+
+result :: add_fields("record\nend",combine_dml);
+
+
+end
+]
+
+
+expand_type("read_file("$AI_DML/types_and_vars.dml")", NULL, 1);
+
+
+ m_eval 'expand_type("read_file("/sandboxes/dxmandala/Projects/ebi/sand/pub_ebi/dml/autogen/ids_svc_ln_tran_drug.dml")")'
+ 
+ expand_type("read_file("/sandboxes/dxmandala/Projects/ebi/sand/pub_ebi/dml/autogen/ids_svc_ln_tran_drug.dml")", NULL, 1);
+ 
+ 
+m_eval 'expand_type("read_file("/sandboxes/dxmandala/Projects/ebi/sand/pub_ebi/dml/autogen/ids_svc_ln_tran_drug.dml")")'
+
+
+
+
+
+
+
+
+
+$[
+begin
+let dml_field_info_vec svc_ln_tran_dml = record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_tran.dml"),"newline"));
+let dml_field_info_vec svc_ln_tran_drug_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_tran_drug.dml"),[vector "audit_key","svc_ln_key","newline","claim_key","svc_ln_tran_key" ]));
+let dml_field_info_vec svc_ln_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln.dml"),[vector "svc_ln_key", "claim_key", "svc_ln_id", "svc_ln_rcvd_dt", "source_code", "data_source", "fin_cycle_dt", "bus_unit_cd", "prog_cd", "ben_pkg_lvl_cd", "ben_pkg_lvl_key", "rider_title", "rider_key", "grp_submit_key", "sub_grp_submit_key", "grp_paid_key", "sub_grp_paid_key", "common_emp_id", "contract_key", "contract_id", "cardholder_mbr_key", "cardholder_party_key", "cardholder_orig_party_key", "cardholder_addr_key", "cardholder_orig_addr_key", "common_pat_id", "mbr_id", "pat_mbr_key", "pat_party_key", "pat_orig_party_key", "pat_addr_key", "pat_orig_addr_key", "ndc", "drug_ndc_name", "reimb_basis_key", "lob_paid", "lob_submit", "cat_svc_key", "place_of_svc_key", "pmt_dt", "svc_ln_cat_key", "svc_ln_status_key", "svc_qty_bill", "svc_qty_allow", "svc_unit_of_measure_key", "last_bal_cd", "last_tran_cd", "allowed_amt", "allowed_amt_calc", "bill_amt", "bill_amt_calc", "coins_amt", "copay_amt", "deduct_amt", "dscnt_amt", "mbr_resp_amt", "mbr_resp_amt_calc", "non_cov_amt", "other_sav_amt", "ppo_sav_amt", "ucr_sav_amt", "wc_sav_amt", "pmt_amt", "prov_liab_amt", "troop_applied_amt", "audit_key", "newline" ]));
+let dml_field_info_vec svc_ln_drug_dml= record_info(remove_fields(read_type("$EBI_DML/autogen/ids_svc_ln_drug.dml"),[vector "adjust_amt", "adjust_dt", "adjust_issue_id", "adjust_rcd_type_key", 
+"adjust_rsn_key", "adjust_seq_nbr_within_batch", "adjust_time", "after_max_amt", "ami_carrier_cd_calc", 
+"asepse_ind", "audit_key", "avg_whlsl_price", "billed_metric_qty", "claim_id_xref", "claim_key", 
+"client_adjust_amt", "client_pricing_basis_key", "cms_exchange_id", "cms_facility_ind", "coins_pct", 
+"compound_drug_ind", "contract_county_3_based_on_zip", "contract_mbr_id", "contract_st_2_based_on_zip", "contract_zip", 
+"copay_stop_loss_amt", "copay_submit_amt", "cov_charge_amt", "daw_key", "days_supply", "dea_schedule_key", "debit_credit_cd", 
+"div_county_3_based_on_zip", "div_st_2_based_on_zip", "div_zip", "dosage_type_key", "drug_cat_key", "drug_disp_days_supply_actual", 
+"drug_disp_days_supply_intend", "drug_disp_fee_amt_pd", "drug_disp_fee_amt_submit", "drug_disp_qty_actual", "drug_disp_qty_intend", 
+"drug_disp_status_key", "drug_disp_type_key", "drug_form_status_key", "drug_gcn_cd", "drug_generic_name", "drug_gpi_cd", "drug_gpi_name", "drug_id_code_set_key", "drug_maint_ind", "drug_plan_cd", "drug_pricing_type_cd", "drug_refill_nbr", "drug_route_key", "drug_strength", "drug_tier_aca", "drug_tier_comm", "drug_tier_govt", "fin_region_st_cd", "formulary_ind", "govt_claim_type_key", "grace_period_ind", "grace_period_start_dt", "grp_plus_div_star", "hier_assoc_cd", "hier_ben_prog_cd", "hier_class_cd", "hier_corp_cd", "hier_grp_direct_cd", "hier_income_liab_cd", "hier_net_cd", "hier_policy_plan_cd", "hier_prod_type_cd", "hier_region_st_cd", "hier_rt_type_cd", "hier_src_cd", "hier_subline_cd", "hios_serf_prod_id", "ingrd_cost_amt_pd", "ingrd_cost_amt_submit", "legal_status_cd", "max_reduct_amt", "mbr_age", "mbr_dob", "mbr_first_name", "mbr_gender_cd", "mbr_gender_key", "mbr_last_name", "mbr_lookup_rule_nbr", "mbr_middle_name", "mbr_reimb_ind", "mbr_rel_key", "medicare_hic_mbr_id", "mfg", "net_due_amt", "over_cap_amt", "pbp_id", "pharm_alt_prov_id", "pharm_alt_prov_id_type_key", "pharm_npi", "pharm_prov_id", "pharm_prov_id_type_key", "pharm_pscript_nbr", "pharm_sav_amt", "prod_sel_amt", "pscribr_alt_prov_id", "pscribr_first_name", "pscribr_last_name", "pscribr_npi", "pscribr_prov_id", "pscribr_prov_id_type_key", "pscript_fill_dt", "pscript_nbr", "pscript_refills_auth", "pscript_svc_render_loc_cd", "pscript_written_dt", "rej_amt", 
+"rider_tier", "rider_type", "sbmtr_drug_bill_type_key", "sel_incent_fee_pd_amt", 
+"sel_incent_sav_amt", "sls_tax_flat_pd_amt", "sls_tax_pct_pd_amt", "specialty_drug_key", 
+"svc_ln_key", "sys_contract_county_2_cd", "sys_contract_holder_ssn", "sys_contract_id", 
+"sys_contract_st", "sys_contract_zip", "sys_corp_cd", "sys_div_county_2_cd", "sys_div_nbr_mbrship_span", "sys_div_st", 
+"sys_div_zip", "sys_grp_nbr", "sys_grp_rgn_cd", "sys_mbr_ssn", "tax_submit_amt", "thera_class_ahfscc", "thera_class_generic", 
+"thera_class_specific", "thera_class_standard", "tmg_hier_plan_id", "tmg_hier_prod_id", "tot_pd_all_src_amt", "troop_accum_after_claim_amt", 
+"troop_accum_before_claim_amt", "vendor_acct_id", "vendor_batch_nbr", "vendor_carrier_id", 
+"vendor_contract_id", "vendor_grp_id", "vendor_key", "vendor_mbr_id" ]));
+
+
+let dml_field_info_vec  combine_dml = vector_concat(vector_concat(vector_concat(svc_ln_dml,svc_ln_drug_dml),svc_ln_tran_drug_dml),svc_ln_tran_dml);
+
+result :: add_fields("record\nend",combine_dml);
+
+end
+]
+
+
+
+/sandboxes/dxmandala/Projects/ebi/private_sand/edw_tyson/plan/edw_tyson_ids_load_process.plan
+/sandboxes/dxmandala/Projects/ebi/private_sand/edw_tyson/mp/edw_tyson_drug_stg_load.mp
+$EBI_DML/autogen/stg_tyson_drug_header.dml
+$EBI_DML/autogen/stg_tyson_drug_detail.dml
+$EBI_DML/autogen/stg_tyson_drug_trailer.dml
+/sandboxes/dxmandala/Projects/ebi/private_sand/edw_tyson/mp/edw_tyson_merge_match_input.mp
+
+
+SELECT cardholder_id,tran_id
+FROM STG.TYSON_DRUG_DETAIL where trim(cardholder_id) in ('010627541','001482180','584902966') and trim(tran_id) in ('000002497491016010','000002183696906010','000002003476016011') and alternate_id in ('T00000014','T00000023','T00438167')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Select count(*) from STG.TYSON_DRUG_HEADER
+
+select * from STG.TYSON_DRUG_DETAIL
+
+
+select distinct audit_key from ids.claim
+
+
+select * from ref.party_id_type_Ref where data_source='TY'
+
+SELECT DISTINCT DEBIT_CREDIT_CD   FROM ids.svc_ln_drug where audit_key='17541'
+
+
+set integrity for  IDS.SVC_LN_NDC_LINK all immediate unchecked
+
+
+
+select * from ids.svc_ln_TRAN_DRUg  where audit_key='17541'
+
+
+SELECT  DRUG_GCN_CD, VENDOR_MBR_ID, DEBIT_CREDIT_CD, PHARM_ALT_PROV_ID, DRUG_DISP_STATUS_KEY, CLAIM_ID_XREF, PSCRIBR_ALT_PROV_ID, MBR_REIMB_IND, MFG, MEDICARE_HIC_MBR_ID, TMG_HIER_PLAN_ID, TMG_HIER_PROD_ID, CMS_FACILITY_IND, PHARM_ALT_PROV_ID_TYPE_KEY, DRUG_TIER_COMM, GOVT_CLAIM_TYPE_KEY, DRUG_TIER_ACA, GRACE_PERIOD_IND, GRACE_PERIOD_START_DT, DRUG_PLAN_CD, PBP_ID, DRUG_TIER_GOVT, PSCRIBR_ALT_PROV_ID_TYPE_KEY FROM IDS.SVC_LN_DRUG WHERE AUDIT_KEY='17541'
+
+select GRP_KEY,
+RIDER_KEY,
+RIDER_TITLE,
+CARDHOLDER_MBR_KEY_FOUND_DT from ids.svc_ln_tran where audit_key='17541'
+
+UPDATE  IDS.SVC_LN_TRAN_DRUG SET DRUG_TIER_GOVT
+
+ = ' '  WHERE AUDIT_KEY='17541'
+
+select DRUG_GCN_CD, VENDOR_MBR_ID, PHARM_PROV_KEY, PHARM_ALT_PROV_ID, PSCRIBR_PROV_KEY, DRUG_DISP_STATUS_KEY, CLAIM_ID_XREF, PSCRIBR_ALT_PROV_ID, MBR_REIMB_IND, ADJUST_ISSUE_ID, MFG, MEDICARE_HIC_MBR_ID, SYS_CORP_CD, TMG_HIER_PLAN_ID, TMG_HIER_PROD_ID, CMS_FACILITY_IND, SYS_GRP_RGN_CD, PHARM_ALT_PROV_ID_TYPE_KEY, DRUG_TIER_COMM, DRUG_TIER_ACA, GRACE_PERIOD_START_DT, HIOS_SERF_PROD_ID, CMS_EXCHANGE_ID, DRUG_PLAN_CD, PBP_ID, RIDER_TYPE, RIDER_TIER, DRUG_TIER_GOVT, PSCRIBR_ALT_PROV_ID_TYPE_KEY, SYS_BENEFIT_LEVEL_MBRS from ids.svc_ln_tran_drug where audit_key='17541' 
+
+
+
+
+
+select cardholder_orig_party_key,cardholder_orig_addr_key,cardholder_addr_key,cardholder_party_key from ids.svc_ln contract_id
+T00000003
+
+
+
+
+SELECT DISTINCT 'TY' AS DATA_SOURCE,CAST(CAST(PAT_RELATION_CD AS CHAR(3)) AS DECIMAL(3)) AS DATA_SOURCE_VAL FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+SELECT DISTINCT 'TY' AS DATA_SOURCE,PAT_RELATION_CD  AS DATA_SOURCE_VAL FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+SELECT DISTINCT 'TY' AS DATA_SOURCE,PAT_RELATION_CD AS DATA_SOURCE_VAL FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+
+
+select * from ref.mbr_rel_Ref where data_source='TY'
+
+
+
+SELECT RIGHT('00'+CAST(field AS VARCHAR(3)),3)
+
+
+
+SELECT DISTINCT 'TY' AS DATA_SOURCE,RIGHT(PAT_RELATION_CD,(LEN(PAT_RELATION_CD) - PATINDEX('%[^0]%',PAT_RELATION_CD)) + 1) AS DATA_SOURCE_VAL FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+SELECT RIGHT(CONCAT('000', field), 3)
+SELECT SELECT DISTINCT 'TY' AS DATA_SOURCE , RIGHT(CONCAT('00', PAT_RELATION_CD), 2) AS DATA_SOURCE_VAL FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+RIGHT(PAT_RELATION_CD,(LEN(PAT_RELATION_CD) - PATINDEX('%[^0]%',PAT_RELATION_CD)) + 1)
+
+SELECT REPLACE(STR(n,3),' ','0')
+
+
+
+SELECT REPLACE(STR(id, 4), SPACE(1), '0') AS [padded_id]
+
+
+SELECT DISTINCT 'TY' AS DATA_SOURCE,REPLACE(PAT_RELATION_CD(id, 4), SPACE(1), '0') AS DATA_SOURCE FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+
+SELECT DISTINCT 'TY' AS DATA_SOURCE,CAST(RIGHT('00' || PAT_RELATION_CD, 2) AS CHAR(2)) AS DATA_SOURCE FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+
+SELECT RIGHT('00' || PAT_RELATION_CD, 2)
+FROM STG.TYSON_DRUG_DETAIL
+WITH UR;
+
+
+
+
+
+Starting the Checkin Wizard.
+Starting import of sandbox '/sandboxes/dxmandala/Projects/ebi/private_sand/edw_tyson' on host 'cwy1etldev' into project '/Projects/ebi/private_sand/edw_tyson' located in repository 'Development Repository - ABENV'(/reposit/ebi_dev/ebi_dev) on host 'cwy1etldev'.
+Adding:   dml/edw_tyson_tysonfoods_tysrx3.dml
+Updating: mp/edw_tyson_drug_stg_load.mp
+Updating: mp/edw_tyson_ids_table_load.mp
+Updating: mp/edw_tyson_merge_match_input.mp
+Updating: mp/edw_tyson_merge_match_output.mp
+Updating: plan/edw_tyson_ids_load_process.plan
+Updating: pset/edw_tyson_ids_claim.pset
+Updating: pset/edw_tyson_ids_claim_drug.pset
+Updating: pset/edw_tyson_ids_drug.pset
+Updating: pset/edw_tyson_ids_ebi_audit.pset
+Updating: pset/edw_tyson_ids_svc_ln.pset
+Updating: pset/edw_tyson_ids_svc_ln_drug.pset
+Updating: pset/edw_tyson_ids_svc_ln_ndc_link.pset
+Updating: pset/edw_tyson_ids_svc_ln_tran.pset
+Updating: pset/edw_tyson_ids_svc_ln_tran_drug.pset
+Updating: pset/edw_tyson_ids_svc_ln_tran_ndc_link.pset
+Updating: run/edw_tyson_drug_stg_load.ksh
+Updating: run/edw_tyson_ids_table_load.ksh
+Updating: run/edw_tyson_merge_match_input.ksh
+Updating: run/edw_tyson_merge_match_output.ksh
+Unlocking: mp/edw_tyson_drug_stg_load.mp
+Unlocking: mp/edw_tyson_ids_table_load.mp
+Unlocking: mp/edw_tyson_merge_match_input.mp
+Unlocking: mp/edw_tyson_merge_match_output.mp
+Unlocking: plan/edw_tyson_ids_load_process.plan
+Unlocking: pset/edw_tyson_ids_claim.pset
+Unlocking: pset/edw_tyson_ids_claim_drug.pset
+Unlocking: pset/edw_tyson_ids_drug.pset
+Unlocking: pset/edw_tyson_ids_ebi_audit.pset
+Unlocking: pset/edw_tyson_ids_svc_ln.pset
+Unlocking: pset/edw_tyson_ids_svc_ln_drug.pset
+Unlocking: pset/edw_tyson_ids_svc_ln_ndc_link.pset
+Unlocking: pset/edw_tyson_ids_svc_ln_tran.pset
+Unlocking: pset/edw_tyson_ids_svc_ln_tran_drug.pset
+Unlocking: pset/edw_tyson_ids_svc_ln_tran_ndc_link.pset
+Unlocking: run/edw_tyson_drug_stg_load.ksh
+Unlocking: run/edw_tyson_ids_table_load.ksh
+Unlocking: run/edw_tyson_merge_match_input.ksh
+Unlocking: run/edw_tyson_merge_match_output.ksh
+Completing import of sandbox '/sandboxes/dxmandala/Projects/ebi/private_sand/edw_tyson' on host 'cwy1etldev' into project '/Projects/ebi/private_sand/edw_tyson' located in repository 'Development Repository - ABENV'(/reposit/ebi_dev/ebi_dev) on host 'cwy1etldev' with status 'Success'.
+All checkin operations are complete.
+
+The Checkin Wizard has completed.
+##############################################################QUESTIONS###############################################################
+1)FLOWS....
+2)m_command to know where abinitio is located.... ($AB_HOME)
+3)execution of paramerter
+4)air sandbox run command (how to override parameters) air snabox run -psest -INFILE paramter-name -OUTFILE parameter-name
+5)m_dump how to find error data. m_dump dml_name file_name -show errors
+6)Dense rank
+7)dept wise and emp wise...(soultion is there)
+8) how to send a email....after completion of job...
+9) Xargs
+
+'
+ls -S -l
+
+
+IN DEPTH AWK COMMANDS:  Raos2
+
+account  amount
+1          10
+2          20
+3		   30
+4		   40
+
+Based on 40 we need to find "4" column.
+
+
+
+
+find /sandboxes/dxmandala/Projects/abcbs/  -exec egrep -ilw bhi_ref_provid_typ {} \;
+
+find /sandboxes/dxmandala/Projects/abcbs/ | xargs grep 'bhi_ref_provid_typ'
+
+find . -type f | xargs grep 'abc'
+
+
+Log DML:
+type log_info_V2_15_4 = record
+  utf8 string("|") node;
+  utf8 datetime("DDD MMM DD HH24:MI:SS YYYY")("|") timestamp;
+  utf8 string("|") component, subcomponent, event_type;
+  utf8 string("|\n") event_text;
+end;
+
+#########################################################SCRIPT WITH ABINITIO############################################
+/*
+              NOTICE
+  COPYRIGHT 2011-2012 AB INITIO
+UNPUBLISHED -- ALL RIGHTS RESERVED
+
+This program is confidential and a trade secret of Ab Initio.
+Receipt or possession conveys no rights for any purpose without
+specific written consent from Ab Initio.
+*/
+// File: $AB_HOME/Projects/root/xfr/vld/validations.xfr
+
+include "/~ab_home/include/analysis-extensions.dml";
+
+// Utility functions: Test to see if a parameter is defined in terms of other
+// parameters.  We ignore AB_DML_DEFS.
+
+out :: plain_param_name(validation_str_t name) =
+  begin
+  let validation_vector_str_t split_name0;
+  let validation_vector_str_t split_name;
+  let validation_str_t return_val = name;
+  if (string_rindex(name, "[") != 0)
+    begin
+      split_name0 = string_split(name, "[");
+      split_name = string_split(split_name0[1], "]");
+      return_val = split_name[0];
+    end;
+
+  out :: return_val;
+end;
+
+out :: explicit_refs_plain_names(validation_parameter_t param) =
+begin
+  let validation_vector_str_t refs = allocate_with_defaults();
+  let validation_vector_str_t plain_name_refs = allocate_with_defaults();
+  let long i;
+
+  if (param.ref_decl_names != "")
+    refs = string_split(param.ref_decl_names, " ");
+  plain_name_refs = for (i, i < length_of(refs)) :
+    plain_param_name(refs[i]);
+    
+
+  out :: for (i, i < length_of(plain_name_refs)) :
+    if (plain_name_refs[i] != "AB_DML_DEFS") plain_name_refs[i];
+end;
+
+out :: how_many_explicit_refs(validation_parameter_t param) =
+begin
+  out :: length_of(explicit_refs_plain_names(param));
+end;
+
+out :: is_parameterized(validation_parameter_t param) =
+begin
+  let how_many_explicit_references = how_many_explicit_refs(param);
+
+  out :: (how_many_explicit_references > 0);
+end;
+
+////////////////////////////////////////////////////////////////////////////
+////
+////    Simple tests -- that is, tests that require no aggregation
+////
+////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Check to see that a URL/path parameter is not hard-wired
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_path_parameterized
+    (validation_parameter_t param) =
+begin
+  let is_path_param = (param.ptype == "url");
+  let has_value = (param.unresolved_value != "");
+  let bad = is_path_param and has_value and not is_parameterized(param);
+
+  if (!bad)
+    exit check_path_parameterized;
+
+  out.message :: "path is not parameterized";
+end;
+
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Check that Record Format for Lookup File/Template is not embedded
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_lookup_record_format_not_embedded
+    (validation_parameter_t param) =
+begin
+  let is_lookup_file = ((param.owner_type == "Lookup_File.mdc") or
+                        (param.owner_type == "Lookup_Template.mdc"));
+  let name_is_record_format = (param.name == "RecordFormat");
+  let is_embedded = param.is_embedded;
+  let owner_is_dataset_coupled = param.owner_is_dataset_coupled;
+  let bad = ((not owner_is_dataset_coupled) and is_lookup_file
+             and name_is_record_format and is_embedded);
+
+  if (!bad)
+    exit check_lookup_record_format_not_embedded;
+
+  out.message :: "For data landed on disk,\n"
+      + "  the record format should be in a file rather than being embedded.";
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Discourage use of certain components
+//
+////////////////////////////////////////////////////////////////////////////
+
+constant validation_str_t concat_msg
+   = "Don't use Concatenate unless there's a real business need\n"
+   + "  for it; use Gather or Merge instead.";
+
+constant validation_str_t aggregate_msg
+   = "Use Rollup instead of the ancient Aggregate component.";
+
+constant record
+           validation_str_t component_type;
+           validation_str_t message;
+         end[int] components_to_check =
+   [vector
+     [record component_type "Concatenate.mpc"     message concat_msg],
+     [record component_type "Aggregate.mpc"       message aggregate_msg]];
+
+vld_simple_result_t out :: check_component_usage
+    (validation_component_t component) =
+begin
+  let long i = 0;
+  let bad = 0;
+  let validation_str_t msg;
+
+  while ((i < length_of(components_to_check)) && (not bad))
+    begin
+      if (component.component_type == components_to_check[i].component_type)
+        begin
+          bad = 1;
+          msg = components_to_check[i].message;
+        end;
+      i = i + 1;
+    end;
+
+  if (!bad)
+    exit check_component_usage;
+
+  out.message :: msg;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Do not use custom components or Run Program
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_for_custom_components
+    (validation_component_t component) =
+begin
+  let problem = 0;
+  let validation_str_t msg
+    = "This is a custom component.  In general, best practice is to avoid if\n"
+    + "  possible using custom components -- check to see if the graph can\n"
+    + "  be built using the supplied built-in components.";
+
+  if ((component.is_graph == 0) and
+      (component.is_builtin_component == 0))
+    problem = 1;
+  if (!problem)
+    exit check_for_custom_components;
+
+  out.message :: msg;
+end;
+
+vld_simple_result_t out :: check_for_run_program_components
+    (validation_component_t component) =
+begin
+  let problem = 0;
+  let validation_str_t msg
+    = "In general, best practice is to avoid if possible using the\n"
+    + "  Run Program component -- check to see if the graph can be built\n"
+    + "  using the supplied built-in components.";
+
+  if ((component.is_graph == 0) and
+      ((component.component_type == "Run_Program.mpc")))
+    problem = 1;
+  if (!problem)
+    exit check_for_run_program_components;
+
+  out.message :: msg;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      No phase breaks next to Sort components
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_phase_break_next_to_sort
+    (validation_flow_t flow) =
+begin
+   let problem = 0;
+   let validation_str_t msg = "";
+   if (flow.source_phase != flow.target_phase)
+     begin
+        if (flow.source_component_type == "Sort.mpc")
+          begin
+             problem = 1;
+             msg = "  Phase break on flow from Sort component.";
+          end;
+        else if (flow.target_component_type == "Sort.mpc")
+          begin
+             problem = 1;
+             msg = "  Phase break on flow to Sort component.";
+          end;
+     end;
+  if (!problem)
+    exit check_phase_break_next_to_sort;
+      
+  out.message ::  msg;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      No phase breaks after Replicate components
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_phase_break_after_replicate
+    (validation_flow_t flow) =
+begin
+   let problem = 0;
+   let validation_str_t msg = "";
+   if (flow.source_phase != flow.target_phase)
+     begin
+        if (flow.source_component_type == "Replicate.mpc")
+          begin
+             problem = 1;
+             msg = "  Phase break on flow after Replicate component.";
+          end;
+     end;
+  if (!problem)
+    exit check_phase_break_after_replicate;
+      
+  out.message ::  msg;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      No Replicate after an Input File
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_replicate_after_input_file
+    (validation_flow_t flow) =
+begin
+  let problem = 0;
+  if ((flow.source_component_type == "Input_File.mdc") and
+      (flow.target_component_type == "Replicate.mpc"))
+    problem = 1;
+  if (!problem)
+    exit check_replicate_after_input_file;
+
+  out.message :: "  Don't put a Replicate component directly after "
+      + "an Input File component.\n"
+      + "  Instead, connect multiple flows directly to the "
+      + "Input File component.";
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Avoid shell interpreted parameters
+//
+////////////////////////////////////////////////////////////////////////////
+
+constant validation_str_t[] exceptions
+= [vector "$(m_expand", "$(m_db"];
+
+vld_simple_result_t out :: avoid_shell_interpretation
+    (validation_parameter_t param) =
+begin
+  let long i = 0;
+  if (param.interpretation != INTERP_shell)
+    exit avoid_shell_interpretation;
+  for (i, i < length_of(exceptions))
+    begin
+       let validation_str_t trimmed_value = string_ltrim(param.unresolved_value);
+       if (starts_with(trimmed_value, exceptions[i]))
+         exit avoid_shell_interpretation;
+    end
+
+  out.message :: "Where possible, use inline DML (with the PDL construct $[])\n"
+    + "  instead of shell expressions in creating parameters.";
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Check to see that a component is not named its default name
+//
+////////////////////////////////////////////////////////////////////////////
+
+// This test is commented out in the delivered activation file, because
+// customers may well have their own versions of this that they want to
+// implement, and some thought should be given to exactly what this test is
+// doing.
+
+vld_simple_result_t out :: check_component_name
+    (validation_component_t component) =
+begin
+  let bad = 0;
+  let validation_str_t msg;
+  let string("") component_full_name_cleansed = component.full_name;
+  let string("") component_type_cleansed = component.component_type;
+
+  component_type_cleansed = string_replace(component_type_cleansed, ".mpc", "");
+  component_type_cleansed = string_replace(component_type_cleansed, ".mdc", "");
+  component_full_name_cleansed = re_replace(component_full_name_cleansed,
+                                            "_[0-9]*$", "");
+
+  if (component_type_cleansed == component_full_name_cleansed)
+    begin
+      bad = 1;
+      msg = "Component name is the same as its component type.";
+    end
+
+  if (!bad)
+    exit check_component_name;
+
+  out.message :: msg;
+end;
+
+///////////////////////////////////////////////////////////////////////////
+//
+//      Check for file: or mfile: in pathnames
+//
+///////////////////////////////////////////////////////////////////////////
+
+vld_simple_result_t out :: check_for_use_of_prefixes_in_file_names
+    (validation_parameter_t param) =
+begin
+  let long bad = 0;
+
+  if (((param.name == "Layout") and
+       ends_with(param.owner_type, ".mdc")) and
+      (param.layout_type == LAYOUT_url) and
+      (not (param.interpretation == INTERP_shell)))
+    if (not ((starts_with(param.value, "file:") or
+              starts_with(param.value, "mfile:"))))
+      bad = 1;
+
+  if (!bad)
+    exit check_for_use_of_prefixes_in_file_names;
+
+  out.message :: "Use the prefix of file: or mfile: on all file paths";
+end;
+
+////////////////////////////////////////////////////////////////////////////
+////
+////    Tests involving aggregation
+////
+////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Record format for landed data should not be embedded.
+//         (Lookup Files are handled separately.)
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_aggr_global_result_t out :: aggregate_log_port_targets
+    (validation_flow_t flow) =
+begin
+  let validation_str_t source_port_generic_name = flow.source_port_generic_name;
+  let validation_str_t target_port_generic_name = flow.target_port_generic_name;
+
+  if (source_port_generic_name != "log")
+    exit aggregate_log_port_targets;
+
+  out.aggregation_value :: flow.target_port_name;
+  out.result_key :: "log_port_targets";
+end;
+
+vld_aggr_global_result_t out :: aggregate_ports_with_possibly_bad_record_formats
+    (validation_port_t port) =
+begin
+  let is_file = ((port.owner_type == "Input_File.mdc") or
+                 (port.owner_type == "Output_File.mdc") or
+                 (port.owner_type == "Input_Table.mdc") or
+                 (port.owner_type == "Output_Table.mdc") or
+                 (port.owner_type == "Intermediate_File.mdc"));
+  let owner_is_dataset_coupled = port.owner_is_dataset_coupled;
+  let is_embedded = port.is_embedded;
+  let name_for_testing = ((port.port_generic_name == "read") or
+                          (port.port_generic_name == "write") or
+                          (port.port_generic_name == "reject"));
+  let bad = ((not owner_is_dataset_coupled) and is_file
+             and name_for_testing and is_embedded);
+
+  if (!bad)
+    exit aggregate_ports_with_possibly_bad_record_formats;
+
+  out.aggregation_value :: port.full_name;
+  out.result_key :: "ports_with_possibly_bad_record_formats";
+end;
+
+vld_check_aggr_result_t out :: check_landed_data_record_format_not_embedded() =
+begin
+  let validation_vector_str_t ports_with_possibly_bad_record_formats
+    = vld_lookup_by_key("ports_with_possibly_bad_record_formats");
+  let validation_vector_str_t log_port_targets
+    = vld_lookup_by_key("log_port_targets");
+
+  let validation_vector_str_t ports_with_bad_record_formats
+    = vector_difference(ports_with_possibly_bad_record_formats,
+                        log_port_targets);
+
+  let long how_many_bad_ports = length_of(ports_with_bad_record_formats);
+  let validation_str_t message = "For data landed on disk, the record format"
+      + " should be in a file\n"
+      + "  rather than being embedded.";
+  let validation_str_t[how_many_bad_ports] bad_components
+    = allocate_with_defaults();
+  let long i;
+
+  for (i, i < how_many_bad_ports)
+  begin
+    let validation_str_t bad_port_name = ports_with_bad_record_formats[i];
+    let long index = string_rindex(bad_port_name, ".");
+    let validation_str_t bad_component_name
+      = string_substring(bad_port_name, 0, index - 1);
+    bad_components[i] = bad_component_name;
+  end;
+
+  out.object_full_names :: for (i, i < how_many_bad_ports) :
+    bad_components[i];
+  out.messages :: for (i, i < how_many_bad_ports) :
+    message;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Check Reformats for no-op behavior
+//
+////////////////////////////////////////////////////////////////////////////
+
+// 1. Locally aggregate transform parameters of Reformat components to see
+//    if they are all just the identity function.  That is, we aggregate a
+//    vector of "true" and "false" strings, each string corresponding to a
+//    transform parameter of a given Reformat component.  "true" signifies
+//    that the transform is just the identity.
+
+vld_aggr_local_result_t out :: locally_aggregate_reformat_transform_is_identity
+    (validation_parameter_t param) =
+  begin
+  let validation_str_t value = "false";
+  let validation_str_t tr = "";
+  let dml_transform_info tr_info;
+  let dml_rule_vec rule_vec;
+  let dml_rule rule;
+  let validation_str_t lhs;
+  let validation_str_t rhs;
+
+  if (not ((param.owner_type == "Reformat.mpc") and
+           (param.index_param_name == "count") and
+           (param.index_name == "transform")))
+    exit locally_aggregate_reformat_transform_is_identity;
+
+  tr = param.value;
+  if (tr == "")
+    value = "true";
+  else
+    begin
+      tr_info = transform_info(tr);
+      rule_vec = tr_info.rules;
+      if (length_of(rule_vec) == 1)
+        begin
+          rule = rule_vec[0];
+          lhs = rule.lhs;
+          rhs = rule.rhs;
+          if ((lhs == "out") and (rhs == "in"))
+            value = "true";
+        end;
+    end;
+
+  out.aggregation_value :: value;
+  out.result_object :: param.owner_full_name;
+  out.result_key :: "reformat_transform_is_identity";
+end;
+
+
+// 2. Locally aggregate Reformat metadata for "all same".
+
+vld_aggr_local_result_t out :: locally_aggregate_reformat_metadata
+    (validation_port_t port) =
+begin
+  if (not ((port.owner_type == "Reformat.mpc") and
+           ((port.port_generic_name == "in") or
+            (port.port_generic_name == "out"))))
+    exit locally_aggregate_reformat_metadata;
+
+  out.aggregation_value :: port.resolved_metadata;
+  out.result_object :: port.owner_full_name;
+  out.result_key :: "record_formats";
+end;
+
+
+// 3.  Aggregate the list of Reformat components.
+
+vld_aggr_global_result_t out :: aggregate_reformat_components
+    (validation_component_t component) =
+begin
+  if (component.component_type != "Reformat.mpc")
+    exit aggregate_reformat_components;
+
+  out.aggregation_value :: component.full_name;
+  out.result_key :: "reformat_components";
+end;
+
+
+// 4.  Combine the two previous local aggregations
+
+vld_check_aggr_result_t out :: check_reformats_for_no_op_behavior() =
+begin
+  let validation_vector_str_t reformat_components
+    = vld_lookup_by_key("reformat_components");
+
+  let validation_str_t message
+    = "This Reformat component does nothing; it can be deleted.";
+ 
+  let long how_many_reformat_components = length_of(reformat_components);
+  let long i;
+  let long[how_many_reformat_components] selections = allocate_with_defaults();
+  let long how_many_messages = 0;
+
+  for (i, i < how_many_reformat_components)
+    begin block current_component_block
+      let long j;
+      let reformat_component_name = reformat_components[i];
+
+      let validation_vector_str_t transform_is_identity_vec
+         = vld_lookup_by_obj_key(reformat_component_name,
+                                  "reformat_transform_is_identity");
+      let validation_vector_str_t record_formats
+         = vld_lookup_by_obj_key(reformat_component_name, "record_formats");
+      let validation_str_t first_record_format;
+      if (length_of(record_formats) == 0)
+        exit current_component_block; // no record formats!
+      first_record_format = record_formats[0];
+
+      for (j, j < length_of(transform_is_identity_vec))
+        if (transform_is_identity_vec[j] != "true")
+          exit current_component_block;
+
+      for (j, j < length_of(record_formats))
+        if (record_formats[j] != first_record_format)
+          exit current_component_block;
+
+      selections[i] = 1;
+      how_many_messages = how_many_messages + 1;
+    end block current_component_block;
+
+  if (how_many_messages == 0)
+    exit check_reformats_for_no_op_behavior;
+
+  out.object_full_names ::  for(i, i < how_many_reformat_components) :
+    if (selections[i] == 1) reformat_components[i];
+  out.messages ::  for(i, i < how_many_reformat_components) :
+    if (selections[i] == 1) message;
+end;
+
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      Check that all rejects are captured on "Never abort" components
+//
+////////////////////////////////////////////////////////////////////////////
+
+// 1.  Globally aggregate components with a reject_threshold parameter set to
+//     "Never abort".
+
+vld_aggr_global_result_t out :: aggregate_never_abort
+    (validation_parameter_t param) =
+begin
+  if (param.name != "reject_threshold")
+    exit aggregate_never_abort;
+
+  if (param.value != "Never abort")
+    exit aggregate_never_abort;
+
+  out.aggregation_value :: param.owner_full_name;
+  out.result_key :: "reject_threshold_is_never_abort";
+end;
+
+
+// 2.  Locally aggregate captured rejects
+
+vld_aggr_local_result_t out :: locally_aggregate_captured_rejects
+    (validation_port_t port) =
+begin
+  if (port.port_generic_name != "reject")
+    exit locally_aggregate_captured_rejects;
+
+  out.aggregation_value :: if (port.has_flow) "true" else "false";
+  out.result_object :: port.owner_full_name;
+  out.result_key :: "ports_have_flows";
+end;
+
+// 3.  Then combine the previous two local aggregations.
+
+vld_check_aggr_result_t out :: check_rejects_captured_if_never_abort() =
+begin
+  let validation_vector_str_t never_abort_components
+    = vld_lookup_by_key("reject_threshold_is_never_abort");
+  let long how_many_components = length_of(never_abort_components);
+  let validation_str_t message
+    = "This component's reject-threshold parameter is set to\n"
+    + "  'Never abort', but at least one of its reject ports has "
+    + "no outgoing flow";
+
+  let long[how_many_components] selections = allocate_with_defaults();
+  let long i;
+
+  if (how_many_components == 0)
+    exit check_rejects_captured_if_never_abort;
+
+  for (i, i < how_many_components)
+    begin
+      let validation_str_t component = never_abort_components[i];
+      let validation_vector_str_t ports_captured
+        = vld_lookup_by_obj_key(component, "ports_have_flows");
+      let how_many_ports = length_of(ports_captured);
+      let long j;
+
+      let long ok = 1;
+      for (j, j < how_many_ports)
+        begin
+          let validation_str_t port_is_captured = ports_captured[j];
+          if (port_is_captured != "true")
+            ok = 0;
+        end;
+
+      if (ok == 0)
+        selections[i] = 1;
+    end;      
+
+  out.object_full_names :: for (i, i < how_many_components) :
+    if (selections[i] == 1) never_abort_components[i];
+  out.messages :: for (i, i < how_many_components) :
+    if (selections[i] == 1) message;
+end;
+
+
+////////////////////////////////////////////////////////////////////////////
+//
+//      No Replicate followed solely by Reformats
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_aggr_global_result_t out :: aggregate_replicate_components
+    (validation_component_t component) =
+begin
+  if (component.component_type != "Replicate.mpc")
+    exit aggregate_replicate_components;
+
+  out.aggregation_value :: component.full_name;
+  out.result_key :: "replicate_components";
+end;
+
+
+
+
+vld_aggr_local_result_t out :: locally_aggregate_successors_of_replicates
+    (validation_flow_t flow) =
+begin
+  if (flow.source_component_type != "Replicate.mpc")
+    exit locally_aggregate_successors_of_replicates;
+
+  out.aggregation_value :: flow.target_component_type;
+  out.result_object :: flow.source_vertex_name;
+  out.result_key :: "replicate_downstream_targets";
+end;
+
+
+vld_check_aggr_result_t out :: check_reformats_after_replicate() =
+begin
+  let validation_vector_str_t replicate_components
+    = vld_lookup_by_key("replicate_components");
+
+  let long how_many_replicates = length_of(replicate_components);
+  let long[how_many_replicates] selections = allocate_with_defaults();
+  let validation_str_t message
+   = "Each successor of this Replicate component is a Reformat component.\n"
+   + "  Just use a Reformat with multiple outputs instead.";
+
+  let long i;
+
+  if (how_many_replicates == 0)
+    exit check_reformats_after_replicate;
+
+  for (i, i < how_many_replicates)
+    begin
+      let validation_str_t replicate = replicate_components[i];
+
+      let validation_vector_str_t successor_types
+        = vld_lookup_by_obj_key(replicate, "replicate_downstream_targets");
+      let long all = 1;
+      let long j;
+
+      let long how_many_successors = length_of(successor_types);
+      if (how_many_successors > 0)
+        for (j, j < how_many_successors)
+          begin
+            let validation_str_t successor_type = successor_types[j];
+            if (successor_type != "Reformat.mpc")
+            all = 0;
+          end;
+      else
+        all = 0;
+            
+
+      if (all == 1)
+        selections[i] = 1;
+    end;
+
+  out.object_full_names :: for (i, i < how_many_replicates) :
+    if (selections[i] == 1) replicate_components[i];
+  out.messages :: for (i, i < how_many_replicates) :
+    if (selections[i] == 1) message;
+end;
+
+
+////////////////////////////////////////////////////////////////////////////
+//
+//    Make sure that no in-memory component immediately follows a Sort
+//
+////////////////////////////////////////////////////////////////////////////
+
+// There's one exception:  A sort can feed into the driving input port of an
+// in-memory Join, because the Join does not sort its driving input, and it
+// might be important to have that input already sorted.
+
+// The results of this aggregation function are also used below, in
+// check_for_too_many_resorts().
+
+vld_aggr_global_result_t out :: aggregate_in_memory_components
+    (validation_parameter_t param) =
+begin
+  if ((param.name != "sorted_input") or (param.value != "False"))
+    exit aggregate_in_memory_components;
+
+  out.aggregation_value :: param.owner_full_name;
+  out.result_key :: "in_memory_components";
+end;
+
+vld_aggr_local_result_t out :: locally_aggregate_driving_inputs
+    (validation_parameter_t param) =
+begin
+  if (param.name != "driving")
+    exit locally_aggregate_driving_inputs;
+  if (param.owner_type != "Join.mpc")
+    exit locally_aggregate_driving_inputs;
+
+  out.aggregation_value :: param.value;
+  out.result_object :: param.owner_full_name;
+  out.result_key :: "driving_input";
+end;
+
+
+vld_aggr_global_result_t out :: aggregate_joins
+    (validation_component_t component) =
+begin
+  if (component.component_type != "Join.mpc")
+    exit aggregate_joins;
+
+  out.aggregation_value :: component.full_name;
+  out.result_key :: "joins";
+end;
+
+vld_aggr_local_result_t out :: locally_aggregate_sort_successor_join_ports
+    (validation_flow_t flow) =
+begin
+  if (flow.source_component_type != "Sort.mpc")
+    exit locally_aggregate_sort_successor_join_ports;
+  if (flow.target_component_type != "Join.mpc")
+    exit locally_aggregate_sort_successor_join_ports;
+
+  out.aggregation_value :: flow.target_port_name;
+  out.result_object :: flow.target_vertex_name;
+  out.result_key :: "sort_successor_ports";
+end;
+
+vld_aggr_global_result_t out :: aggregate_successors_of_sorts
+    (validation_flow_t flow) =
+begin
+  if (flow.source_component_type != "Sort.mpc")
+    exit aggregate_successors_of_sorts;
+
+  out.aggregation_value :: flow.target_vertex_name;
+  out.result_key :: "successors_of_sort_components";
+end;
+
+
+vld_aggr_local_result_t out :: locally_aggregate_input_join_port_indexes
+    (validation_port_t port) =
+begin
+  if (port.owner_type != "Join.mpc")
+    exit locally_aggregate_input_join_port_indexes;
+  if (port.port_generic_name != "in")
+    exit locally_aggregate_input_join_port_indexes;
+
+  out.aggregation_value :: port.port_index;
+  out.result_object :: port.full_name;
+  out.result_key :: "input_join_port_indexes";
+end;
+
+
+
+vld_check_aggr_result_t out :: check_in_memory_components_after_sorts() =
+begin
+  let validation_vector_str_t successors_of_sort_components
+    = vld_lookup_by_key("successors_of_sort_components");
+  let validation_vector_str_t in_memory_components
+    = vld_lookup_by_key("in_memory_components");
+  let validation_vector_str_t joins
+    = vld_lookup_by_key("joins");
+
+  let long how_many_successors_of_sorts
+    = length_of(successors_of_sort_components);
+  let long how_many_in_memory_components = length_of(in_memory_components);
+  let validation_str_t message
+    = "Sort immediately before an in-memory component is not needed.";
+  let validation_str_t[int] bad_objects = allocate();
+  let long i;
+  let long j;
+  let long k;
+
+  if ((how_many_successors_of_sorts == 0) or
+      (how_many_in_memory_components == 0))
+    exit check_in_memory_components_after_sorts;
+
+  for (i, i < how_many_successors_of_sorts)
+    begin block sort_successor_block
+      let validation_str_t sort_successor
+        = successors_of_sort_components[i];
+      if (sort_successor member in_memory_components)
+        begin
+          if (sort_successor member joins)
+            begin
+              // If we get here, we're at a join that is a successor of a sort.
+              let validation_vector_str_t join_ports
+                = vld_lookup_by_obj_key(sort_successor, "sort_successor_ports");
+              let validation_str_t driving_port_index
+                = vld_lookup_by_obj_key(sort_successor, "driving_input")[0];
+              for (j, j < length_of(join_ports))
+                begin
+                  let validation_str_t port_name = join_ports[j];
+                  let validation_vector_str_t join_port_indexes
+                      = vld_lookup_by_obj_key(port_name,
+                                              "input_join_port_indexes");
+                  let long found_non_driving_port = 0;
+                  for (k, ((k < length_of(join_port_indexes))
+                           and (!found_non_driving_port)))
+                    begin
+                      let validation_str_t port_index = join_port_indexes[k];
+                      if (port_index != driving_port_index)
+                        found_non_driving_port = 1;
+                    end
+                  if (found_non_driving_port)
+                    begin
+                      bad_objects = vector_append(bad_objects, sort_successor);
+                      exit sort_successor_block; // continue to next successor
+                    end
+                end
+            end // end of "if ((sort_successor member joins)"
+          else // successor is not a Join component
+            bad_objects = vector_append(bad_objects, sort_successor);
+        end // end of block processing in-memory components
+    end block sort_successor_block
+
+  out.object_full_names :: for (i, i < length_of(bad_objects)) : bad_objects[i];
+  out.messages :: for (i, i < length_of(bad_objects)) : message;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//    Make sure no serial component immediately follows a partitioner
+//
+////////////////////////////////////////////////////////////////////////////
+
+vld_aggr_global_result_t out :: aggregate_serial_components
+    (validation_parameter_t param) =
+begin
+  if ((param.name != "Layout") or
+      (!starts_with(param.value, "file:")))
+    exit aggregate_serial_components;
+
+  out.aggregation_value :: param.owner_full_name;
+  out.result_key :: "serial_components";
+end;
+
+vld_aggr_global_result_t out :: aggregate_partitioner_followers
+    (validation_flow_t flow) =
+begin
+   if (string_index(string_downcase(flow.source_component_type), "part") <= 0)
+     exit aggregate_partitioner_followers;
+      
+  out.aggregation_value :: flow.target_vertex_name;
+  out.result_key :: "partitioner_followers";
+end;
+
+vld_check_aggr_result_t out :: check_serial_components_after_partitioner() =
+begin
+  let validation_vector_str_t serial_components
+    = vld_lookup_by_key("serial_components");
+  let validation_vector_str_t partitioner_followers
+    = vld_lookup_by_key("partitioner_followers");
+
+  let long how_many_serial_components = length_of(serial_components);
+  let long how_many_partitioner_followers = length_of(partitioner_followers);
+  let validation_str_t message
+    = "Partitioner followed by a component in a serial layout";
+  let validation_vector_str_t bad_components = allocate();
+
+  let long i;
+  let long j;
+  let long bad_length;
+
+  for (i, i < how_many_serial_components)
+    for (j, j < how_many_partitioner_followers)
+      if (serial_components[i] == partitioner_followers[j])
+        bad_components = vector_append(bad_components, serial_components[i]);
+
+  bad_length = length_of(bad_components);
+
+  out.object_full_names :: for (i, i < bad_length) : bad_components[i];
+  out.messages :: for (i, i < length_of(bad_components)) : message;
+end;
+
+////////////////////////////////////////////////////////////////////////////
+//
+//    Check that there are not unnecessary Sort components
+//
+////////////////////////////////////////////////////////////////////////////
+
+// ...in the following sense:  if there are two Sort components on a path with
+// the same major key, and if no component or flow between them could destroy
+// the sort order, then the second Sort (the "reSort") could be replaced by a
+// Sort within Groups.  This test is particularly interesting in that it
+// actually performs a global analysis on the graph, which is not something that
+// the validation extension mechanism was originally designed for.
+
+
+vld_aggr_global_result_t out :: aggregate_all_sources
+    (validation_flow_t flow) =
+begin
+  out.aggregation_value :: flow.source_vertex_name;
+  out.result_key :: "sources";
+end;
+
+
+vld_aggr_global_result_t out :: aggregate_all_targets
+    (validation_flow_t flow) =
+begin
+  out.aggregation_value :: flow.target_vertex_name;
+  out.result_key :: "targets";
+end;
+
+validation_vector_str_t out :: find_next_components(component) =
+begin
+  let validation_vector_str_t source_components
+    = vld_lookup_by_key("sources");
+  let validation_vector_str_t target_components
+    = vld_lookup_by_key("targets");
+  let long i;
+  let string("")[int] followers = allocate();
+  
+  for (i, i<length_of(source_components))
+    if (source_components[i] == component)
+      followers = vector_append(followers, target_components[i]);
+
+  out :: followers;
+end;
+
+
+
+// vld_aggr_local_result_t out :: locally_aggregate_next_components
+//     (validation_flow_t flow) =
+// begin
+//   out.aggregation_value :: flow.target_vertex_name;
+//   out.result_object :: flow.source_vertex_name;
+//   out.result_key :: "next_components";
+// end;
+
+
+
+validation_str_t out :: last_component(path) =
+begin
+  let string("")[int] component_list = string_split(path, ",");
+  out :: string_lrtrim(component_list[length_of(component_list) - 1]);
+end;
+
+vld_aggr_global_result_t out :: aggregate_sort_components
+    (validation_component_t component) =
+begin
+  if (component.component_type != "Sort.mpc")
+    exit aggregate_sort_components;
+
+  out.aggregation_value :: component.full_name;
+  out.result_key :: "sort_components";
+end;
+
+vld_aggr_local_result_t out :: locally_aggregate_all_component_types
+    (validation_component_t component) =
+begin
+  out.aggregation_value :: component.component_type;
+  out.result_object :: component.full_name;
+  out.result_key :: "component_types";
+end;
+
+vld_aggr_local_result_t out :: locally_aggregate_all_sort_keys
+    (validation_parameter_t param) =
+begin
+  if ((string_downcase(param.name) != "key") or
+      (param.owner_type != "Sort.mpc"))
+    exit locally_aggregate_all_sort_keys;
+
+  out.aggregation_value :: param.value;
+  out.result_object :: param.owner_full_name;
+  out.result_key :: "sort_keys";
+end;
+
+vld_aggr_global_result_t out :: aggregate_components_destroying_sort_order
+    (validation_flow_t flow) =
+begin
+  if (((flow.flow_type != FLOW_TYPE_FAN_IN) and
+       (flow.flow_type != FLOW_TYPE_ALL_TO_ALL)) or
+      (flow.target_component_type == "Merge.mpc"))
+           exit aggregate_components_destroying_sort_order;
+
+  out.aggregation_value :: flow.target_vertex_name;
+  out.result_key :: "components_destroying_sort_order";
+end;
+
+vld_aggr_global_result_t out :: aggregate_components_for_implicit_gather
+    (validation_flow_t flow) =
+begin
+  out.aggregation_value :: flow.target_vertex_name
+      +  " -- " + flow.target_port_name;
+  out.result_key :: "components_for_implicit_gather";
+end;
+
+validation_str_t out :: get_first_key(validation_str_t str) =
+begin
+  let string("") tmp_str = str;
+  let long pos;
+
+  pos = string_index(tmp_str, ";");
+  if (pos > 0)
+    // remove rest of line with later keys
+    tmp_str = string_substring(tmp_str, 1, pos - 1);
+  tmp_str = string_filter_out(tmp_str, "{}");
+  tmp_str = string_lrtrim(tmp_str);
+
+  out :: tmp_str;
+end;
+
+validation_str_t out :: just_component_name(str) =
+begin
+  let long pos;
+
+  pos = string_index(str, " --");
+
+  out :: string_substring(str, 1, pos - 1);
+end;
+
+vld_check_aggr_result_t out :: check_for_too_many_resorts() =
+begin
+  let long i;
+  let long j;
+  let long k;
+  let long m;
+  let validation_vector_str_t outputs = allocate();
+  let validation_vector_str_t sort_components
+    = vld_lookup_by_key("sort_components");
+  let validation_vector_str_t sort_keys
+    = vld_lookup_by_key("sort_keys");
+  let validation_vector_str_t in_memory_components
+    = vld_lookup_by_key("in_memory_components");
+  let validation_vector_str_t components_destroying_sort_order
+    = vld_lookup_by_key("components_destroying_sort_order");
+  let validation_vector_str_t components_for_implicit_gather
+    = vld_lookup_by_key("components_for_implicit_gather");
+  let validation_vector_str_t components_with_implicit_gather = allocate();
+  let validation_str_t path_stem;
+  let validation_str_t message
+    = "Full resorting is not required on all flows - Try Sort within Groups";
+  
+  // Identify the set of components performing an implicit gather.  These
+  // components destroy any sort order on their incoming flows.
+
+  for (i, i < length_of(components_for_implicit_gather))
+  begin
+    let long duplicate_use_of_port_found = 0;
+    for (j, j < i)
+      if (components_for_implicit_gather[i]
+          == components_for_implicit_gather[j])
+         duplicate_use_of_port_found = 1;
+    if (duplicate_use_of_port_found == 1)
+      components_with_implicit_gather
+        = vector_append(components_with_implicit_gather, 
+                        just_component_name(components_for_implicit_gather[i]));
+  end
+
+  // Starting with each sort component in the graph, we walk downstream in as
+  // many ways as possible from that sort component until either
+  //
+  //   a) we reach a component that destroys the sort order (in which case we
+  //      stop walking), or
+  //
+  //   b) we reach another sort component (at which point we also stop walking).
+  //      If that second sort component has the same major key as the original
+  //      sort component, we issue the warning message above.
+
+  for (i, i < length_of(sort_components))
+    // Iterate over all sort components.
+    begin
+      // We initialize a new local "paths" variable which holds all paths
+      // starting from this sort component.
+
+      let validation_str_t first_sort = sort_components[i];
+      let validation_str_t first_sort_first_key
+        = get_first_key(vld_lookup_by_obj_key(first_sort, "sort_keys")[0]);
+      let long cur_path_index = 0;
+      let validation_vector_str_t paths = allocate();
+      paths = vector_append(paths, first_sort);
+
+      // We walk over the paths.  Initially, of course there is only the trivial
+      // path starting (and ending) at the sort component we're starting at.
+      // But as we go on, we will add more paths.
+      while (cur_path_index < length_of(paths))
+        begin
+          // We take the current path, and keep extending it.  If there is more
+          // than one possible extension (because the last element on the path
+          // has more than one successor), then all the extensions other than
+          // the first one become new paths that are added to the end of the
+          // paths list.
+
+          let integer(1) changed = 1;
+          while(changed)
+            begin block path_block
+              // This commented-out statement seems more idiomatic to me than
+              // the one that follows; it could be experimented with.  To use
+              // this code, you need to uncomment and activate the aggregation
+              // function locally_aggregate_next_components() defined earlier in
+              // this file.
+              //
+              // let validation_vector_str_t next_components
+              //   = vld_lookup_by_obj_key(last_component(paths[cur_path_index]),
+              //                           "next_components");
+              let validation_vector_str_t next_components
+                = find_next_components(last_component(paths[cur_path_index]));
+              let integer(1) first_extension = 1; // true
+              changed = 0;
+
+              if (length_of(next_components) == 0)
+                exit path_block;  // Nothing to see here, move on folks.
+
+              for (j, j < length_of(next_components))
+                begin block next_component_block
+                  let validation_str_t next_component = next_components[j];
+                  let validation_str_t next_component_type
+                    = vld_lookup_by_obj_key(next_component,
+                                            "component_types")[0];
+                  if (next_component_type == "Sort.mpc")
+                    begin
+                      // We've reached a second sort component.  Here we check
+                      // to see if we need to emit a warning, and if so, we add
+                      // this component to the outputs list.
+                      let validation_str_t this_sort_first_key
+                        = get_first_key(vld_lookup_by_obj_key(next_component,
+                                                              "sort_keys")[0]);
+                      if (this_sort_first_key == first_sort_first_key)
+                        begin block add_to_outputs
+                          for (m, m < length_of(outputs))
+                            if (outputs[m] == next_component)
+                              exit add_to_outputs;
+                          outputs = vector_append(outputs, next_component);
+                        end block add_to_outputs
+                    end
+                  else // next_component is not a Sort component
+                    begin
+                      // an in-memory component in-validates sort order
+                      for (m, m < length_of(in_memory_components))
+                        if (next_component == in_memory_components[m])
+                          exit next_component_block;
+
+                      // certain flow types destroy sort order
+                      for (m, m < length_of(components_destroying_sort_order))
+                        if (next_component
+                            == components_destroying_sort_order[m])
+                          exit next_component_block;
+
+                      // certain flow types destroy sort order
+                      for (m, m < length_of(components_with_implicit_gather))
+                        if (next_component
+                            == components_with_implicit_gather[m])
+                          exit next_component_block;
+
+                      // If we get here, we're going to extend the path.
+
+                      if (first_extension)
+                        begin
+                          first_extension = 0; // false
+
+                          // Save current stem before adding new components
+                          path_stem = paths[cur_path_index];
+
+                          // Extend current path with next_component
+                          paths[cur_path_index]
+                            = paths[cur_path_index] + "," + next_component;
+                          changed = 1;
+                        end
+                      else
+                        begin
+                        // For next components above 0, create new path
+                        paths
+                          = vector_append(paths,
+                                          path_stem + "," + next_component);
+                        changed = 1;
+                        end
+                    end // "not a Sort component"
+                end block next_component_block
+            end block path_block
+        cur_path_index = cur_path_index + 1;
+      end
+    end // of loop over Sort components
+
+  out.object_full_names :: for (i, i < length_of(outputs)) : outputs[i];
+  out.messages :: for (i, i < length_of(outputs)) : message;
+end;
+
+######################################################SCRIPT IN IBM########################################
+mandad2 [desapp51] /home/mandad2: vi timediff_main.ksh
+#!/usr/bin/ksh
+echo 'date:'$1
+user=`whoami`
+db_user=`cat $HOME/.esi_db_authnt | awk -F" " '{print }'`
+db2 connect to ESID $db_user
+
+db2 -x "select job_na,max(job_event_id) as job_event_id  from $user.JOB_CONTRL_LOG_T1 \
+        where JOB_EFECTV_DT in ('$1') and ESI_ACT_STAT_CD='C' group by job_na" > job_names
+
+while read line
+do
+j_name=`echo $line | awk -F" " '{print $1}'`
+j_id=`echo $line | awk -F" " '{print $2}'`
+db2 -x "select job_na,job_event_id,(select TIME(TABLE_UPDATE_TS) from $user.JOB_CONTRL_LOG_T1 where job_na='${j_name}' and job_event_id='${j_id}' \
+       and JOB_EFECTV_DT='$1' and ESI_ACT_STAT_CD='S') as "Start_Time", \
+       (select TIME(TABLE_UPDATE_TS) from $user.JOB_CONTRL_LOG_T1 where job_na='${j_name}' and job_event_id='${j_id}' \
+       and JOB_EFECTV_DT='$1' and ESI_ACT_STAT_CD='C') as "End_Time", \
+       (SELECT timestampdiff (4, char((select TIME(TABLE_UPDATE_TS) from $user.JOB_CONTRL_LOG_T1 where job_na='${j_name}' and job_event_id='${j_id}' \
+       and JOB_EFECTV_DT='$1' and ESI_ACT_STAT_CD='C')- \
+       (select TIME(TABLE_UPDATE_TS) from $user.JOB_CONTRL_LOG_T1 where job_na='${j_name}' and job_event_id='${j_id}' \
+       and JOB_EFECTV_DT='$1' and ESI_ACT_STAT_CD='S'))) FROM sysibm.sysdummy1) as "Time_diff" \
+       from $user.JOB_CONTRL_LOG_T1 where job_na='${j_name}' and JOB_EFECTV_DT='$1' and JOB_EVENT_ID='${j_id}' order by job_na desc fetch first row only " >> report
+done < job_names
+
+db2 connect reset
+echo "DB2 Disconnected"
+while read line
+do
+job=`echo $line | awk -F " " '{print $1}'`
+echo $job
+jid=`echo $line | awk -F " " '{print $2}'`
+echo $jid
+stime=`echo $line| awk -F " " '{print $3}'`
+echo $stime
+etime=`echo $line| awk -F " " '{print $4}'`
+echo $etime
+min=`echo $line | awk -F " " '{print $5}'`
+echo $min
+if [ $min -gt 0 ]; then
+find /td/pesi/dev/ -name "*$job*" | grep $job | egrep "/control/.*.control$"| egrep -v "_recon.control" | egrep -v "_bkp.control"|uniq  >>res
+########Graph_Names############
+while read line
+do
+proj=`echo $line | cut -c 14-16`
+echo $proj
+sandbox=`echo $line | awk -F "/" '{print $5}'`
+echo $sandbox
+cat $line | grep 'ABINITIO_GRAPH_NAME' |awk '{print $2}'| awk -F"." '{print $1}'|uniq >>graph_name.txt
+done < res
+#########Log_Files#############
+for i in ` cat graph_name.txt `
+do
+find /td/logs/abinitio/dev/$proj/$sandbox/log/mandad2/  -name "*${i}*"|uniq >> log_files
+done
+##############Log_Files Report############
+for i in ` cat log_files `
+do
+JID=`cat ${i} | egrep 'E_ESI_JOB_EVENT_ID' | egrep -v 'E_ESI_JOB_EVENT_ID_REPO' |  awk -F "=" '{print $2}'`
+if [ $JID -eq $jid ]; then
+echo ${i} >>logfile.csv
+else
+echo "no log file \n\t"
+fi
+done
+else
+echo "Job executed below 30 Minutes!\n\t"
+fi
+done < report
+echo "===================================================================================================" >> report.csv
+echo "JOB_NAME\tJOB_EVENT_ID\t\tSTART_TIME\t\tEND_TIME\t\tTIME_DIFF\t\t" >> report.csv
+echo "===================================================================================================" >> report.csv
+cat report| tr -s " " "\t" | awk -F "\t" '{print $1 "\t" $2 "\t\t\t" $3 "\t\t" $4 "\t\t" $5}' >> report.csv
+
+
+#########################################################SED COMMANDS###############################################
+========================================================================================================================
+SED Command 
+========================================================================================================================
+
+a			- Append 
+
+c			- Change
+
+d and D			- Delete the line
+
+g and G			- get
+
+i			- Insert
+
+n and N			- Next
+
+p and P			- Print the line
+
+q			- Quit
+
+s/pattern1/pattern2/ 		- Substitutes the first occurrence of pattern1 with pattern2.
+
+r filename 			- Read File
+
+w filename			- Write File
+========================================================================================================================
+Sed Patteren Flags & Matching Characters 
+========================================================================================================================
+/g			 - Global
+
+/I 			- Ignore Case
+
+/p			 - Print
+
+/w filename 		- Write Filename
+
+/a.c/			- Matches lines that contain strings such as a+c, a-c, abc, match, and a3c, whereas the pattern
+
+/a*c/			- Matches the same strings along with strings such as ace, yacc, and arctic.
+
+/[tT]he/			- Matches the string The and the
+
+/^$/			- Matches Blank lines
+
+/^.*$/			- Matches an entire line whatever it is.
+
+/ */			- Matches one or more spaces
+
+/^$/			- Matches Blank lines
+
+a-z]			- Matches a single lowercase letter
+
+[A-Z]			- Matches a single uppercase letter
+
+[a-zA-Z]			- Matches a single letter
+
+[0-9]			- Matches a single number
+
+[a-zA-Z0-9]		- Matches a single letter or number
+
+[[:alnum:]]			- Alphanumeric [a-z A-Z 0-9]
+
+[[:alpha:]]			- Alphabetic [a-z A-Z]
+
+[[:blank:]]			- Blank characters (spaces or tabs)
+
+[[:cntrl:]]			- Control characters
+
+[[:digit:]]			- Numbers [0-9]
+
+[[:graph:]]			- Any visible characters (excludes whitespace)
+
+[[:lower:]]			- Lowercase letters [a-z]
+
+[[:print:]]			- Printable characters (noncontrol characters)
+
+[[:punct:]]			- Punctuation characters
+
+[[:space:]]			- Whitespace
+
+[[:upper:]]			- Uppercase letters [A-Z]
+
+[[:xdigit:]]			- Hex digits [0-9 a-f A-F]
+========================================================================================================================
+Examples
+========================================================================================================================
+
+1)	sed -n '1,3p' test.txt
+
+		- > Print first 3 lines of the file test.txt. -n option to avoid repetition of line printing
+
+2)	sed '1,3p' test.txt
+
+		- > Print first 3 lines of the file test.txt.
+
+3)	sed 's/root/user/g' test.txt
+
+		- > Replace all matches, not just the first match.
+
+4)	sed '10s/ksr/rao/g' test.txt
+
+		- > Substitute the string ksr with the string rao only on line 10.
+
+
+5)	sed '1,5s/ksr/rao/g' test.txt
+
+		- > Substitute the string ksr with the string rao frist 5 lines.  But the rest of the lines were left untouched.
+
+
+6)	sed '/^srinivas/d' test.txt
+
+		- > Which matches all the lines starting with srinivas and then deleting them.
+
+
+7)	sed '/rao$/d' test.txt
+
+		- > Which would delete all the lines ending with rao.
+
+
+8)	sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g' phone.txt
+
+		- > To make the area code (the first three digits) surrounded by parentheses for easier reading. To do this, we have to use the ampersand replacement character
+
+	O/P : 	(555)5551212
+		(555)5551213
+		(555)5551214
+		(666)5551215
+		(666)5551216
+		(777)5551217
+
+9)	sed -e 's/^[[:digit:]]\{3\}/(&)/g'   -e 's/)[[:digit:]]\{3\}/&-/g' phone.txt
+
+		- > Instead of repeating the character class keyword [[:digit:]] three times, you replaced it with \{3\}, which means to match the preceding regular expression three times
+
+	O/P : 	(555)555-1212
+		(555)555-1213
+		(555)555-1214
+		(666)555-1215
+		(666)555-1216
+		(777)555-1217
+
+
+10)	sed 's/\//,/' < filename (OR) sed 's|/|,|' < filename
+
+		- >  To replace the character '/' with ',' in a file
+
+
+11)	sed s/apple/(&)/ < filename
+
+		- >  To replace the word "apple" with "(apple)" in a file
+
+
+12)	sed 's/\(apple\) \(mango\)/\2 \1/' < filename
+
+		- >   To switch the two consecutive words "apple" and "mango" in a file
+
+
+13)	sed 's/bat/ball/2' < filename
+
+		- >  To replace the second occurrence of the word "bat" with "ball" in a file
+
+
+14)	sed 's/jhon//2g' < filename
+
+		- >  To remove all the occurrences of the word "jhon" except the first one in a line with in the entire file
+
+
+15)	sed '5 s/[0-9][0-9]*//' < filename
+
+		- >  To remove the first number on line 5 in file
+
+
+16)	sed '\,^@, s/[0-9][0-9]*//' < filename
+
+		- >   To remove the first number on all lines that start with "@"
+
+
+17)	sed '1,00 s/gum/drum/' < filename
+
+		- >  To replace the word "gum" with "drum" in the first 100 lines of a file
+
+
+18)	sed '100,$ s/lite/light/' < filename
+
+		- >  To replace the word "lite" with "light" from 100th line to last line in a file
+
+
+19)	sed '1,10 d' < filename
+
+		- >  To remove the first 10 lines from a file
+
+
+20)	sed 'p' < filename
+
+		- >   To duplicate each line in a file
+
+
+21)	sed '/^$/ p' < filename
+
+		- >  To duplicate empty lines in a file
+
+
+21)	sed '/^$/d' < filename
+
+		- >  To delte empty lines in a file
+
+
+21)	sed -n '/run/!p' < filename 
+
+		- >  To print the lines that do not contain the word "run"
+
+
+
+
+##########################################################XARGS######################################
+========================================================================================================================
+xargs Command 
+========================================================================================================================
+The xargs command is extremely useful when we combine it with other commands.
+
+	Syntax of xargs (from the man page):
+
+		xargs [-0prtx] [-E eof-str] [-e[eof-str]] [--eof[=eof-str]] [--null] [-d delimiter] [--delimiter delimiter] [-I replace-str] [-i[replace-str]] [--replace[=replace-str]] [-l[max-lines]] [-L max-lines] [--max-lines[=max-lines]] [-n max-args] [--max-args=max-args] [-s max-chars] [--max-chars=max-chars] [-P max-procs] [--max-procs=max-procs] [--interactive] [--verbose] [--exit] [--no-run-if-empty] [--arg-file=file] [--show-limits] [--version] [--help] [command [initial-arguments]]
+
+========================================================================================================================
+Xargs Basic Example
+========================================================================================================================
+
+	The xargs command (by default) expects the input from stdin, and executes /bin/echo command over the input. 
+	The following is what happens when you execute xargs without any argument, or when you execute it without combining with any other commands.
+
+	1) $>  xargs
+
+		Hi,
+		Welcome to IBM.
+
+	2) $>  xargs
+
+		Hi,
+		Welcome to IBM.Hi, Welcome to IBM.
+
+========================================================================================================================
+ Specify Delimiter Using -d option
+========================================================================================================================
+	Delimiters can be applied so that each character in the input is taken literally using -d option in xargs.
+
+	In the previous example, even though the input contained a \n (newline) after ëHi,í but the echoed output did not contain the newline ë\ní . So, the output in the previous example was combined into a single line.
+
+	In the following example, when you use the -d\n, it will preserve newline delimiter in the output, and display the output exactly as it was typed.
+
+	1) $>  xargs -d\n
+
+		Hi,
+		Welcome to IBM.
+
+	2) $>  xargs -d\n
+
+		Hi,
+		Welcome to TGS.Hi, 
+		Welcome to TGS.
+========================================================================================================================
+ Limit Output Per Line Using -n Option
+========================================================================================================================
+	By default as explained earlier, xargs displays whatever comes to its stdin as shown below.
+
+		1) $>  echo a b c d e f | xargs
+
+			a b c d e f
+
+	In the following example, we used -n 3, which will display only 3 items per line in the xargs output.
+
+		2) $> echo a b c d e f| xargs -n 3
+
+			a b c
+			d e f
+
+		3) $> echo a b c d e f| xargs -n 2
+		
+			a b
+			c d
+			e f
+
+========================================================================================================================
